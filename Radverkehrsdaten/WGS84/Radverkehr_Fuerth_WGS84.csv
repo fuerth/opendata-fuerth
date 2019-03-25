@@ -1,0 +1,739 @@
+X,Y,LAGE,Shape_Leng,von,bis,Bemerkung,Typ
+10.9730127029272,49.5255883199657,Brückenstraße aw,381.051237117,,,,gemeinsamer Rad-und Fußweg
+10.9730637398255,49.5254763878894,Brückenstraße,288.223789384,Widerlager,Mannhofer Straße,,gemeinsamer Rad-und Fußweg
+10.9574690972677,49.4784491236101,Soldnerstraße Nordseite,384.205512155,,,,Radfahrstreifen
+10.9576055676331,49.4782708985636,Soldnerstraße Südseite,361.056606079,,,,Radfahrstreifen
+10.9664618752291,49.4779811130754,Hardstraße Nordseite,660.263403592,,,,Radfahrstreifen
+10.9657269250558,49.4778519963082,Hardstraße Südseite,647.296591428,,,,Radfahrstreifen
+10.9734010925006,49.4783811226462,Hardstraße,370.393300942,,,,Radfahrstreifen
+10.9821748976187,49.532944674872,Stadelner Hauptstraße,1245.58293785,Annastr.,Stadtgrenze,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.965633590862,49.5077877250138,Vacher Straße,927.256529533,Hs.Nr. 280,Fischerberg,,"Gehweg, Radfahrer frei"
+10.9670378299037,49.5108624082605,Stadelner Straße,484.036434074,Abzweig RegnitztalRadweg,Brücke,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9611200006854,49.5118966171304,Stadelner Straße,342.949212315,Vacher Straße,Kanal,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.960701667654,49.511545914696,Auffahrt Solarberg,311.441186644,,,,Feld-Waldweg
+10.9463718093945,49.4930203962563,Hafenstraße,858.58193485,Rezatbrücke,Abzweig Minigolf,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9405678814589,49.4848978358503,Würzburger Brücke,483.561389848,,,,getrennter Rad- und Fußweg (2 Richtungen)
+10.9464634609152,49.4854731645356,Würzburger Straße West,1007.43260435,Hansastraße,Kanal,,getrennter Rad- und Fußweg (2 Richtungen)
+10.9588715958035,49.4845802462329,Querung Ruhsteinweg,163.417798012,Würzburger Straße,Habichtstraße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9805580841114,49.4825205679685,Heckenweg,548.373337571,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9672992093983,49.4909802188344,Finkenschlag entlang Bahn,542.681627601,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.947079874043,49.4971280897542,Rezartstraße Nordseite,511.350249327,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9471275428003,49.4970159436535,Rezartstraße Südseite,506.12005263,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9536069909222,49.4989362811008,Hafenstraße,911.122130439,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9580285633506,49.5159846683381,Kanal Westseite,4456.13730876,Stadtgrenze ER,Rezatstraße,,Betriebsweg MD-Kanal
+10.9436071566465,49.4770115289509,Kanal Westseite,5518.78099594,Rezatstraße,Friedlandstraße,,Betriebsweg MD-Kanal
+10.9668673148192,49.4602873049801,Eschenausteg,367.078965492,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9633817831958,49.463223398474,Forsthausbrücke Nordseite,318.450244795,,,,Schutzstreifen
+10.9631988781894,49.4630471636105,Forsthausbrücke Südseite,334.885331661,,,,Schutzstreifen
+10.9587000963718,49.4646135644234,Am Europakanal,850.059461691,Forsthausbrücke,Graf-Stauffenberg-Brücke,,Schutzstreifen
+10.9620203933558,49.4687524576308,Breslauer Straße Nordseite,338.088526728,,,,getrennter Rad- und Fußweg
+10.9613643832661,49.4661635538239,Brünnleinsweg,734.696615099,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9628625738059,49.4706351202056,Georg-Elser-Steg,84.7121729093,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9362902575172,49.4718650266513,Rennweg,1211.7281565,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9429855215809,49.4667056833113,Kuckucksweg,530.001013202,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9368709931437,49.4679925264221,Oberfürberger Straße,684.883021843,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9309919848837,49.4735158713174,Am Lehmacker,269.172551598,,,,Feld-Waldweg
+10.9337127171923,49.4737163554155,Sperberstraße,471.368076182,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9374914079146,49.4736715796997,Spechtweg,294.835784032,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9383715610907,49.4742408619807,Emil-Nolde-Straße,236.253220126,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9462641483077,49.4726810902253,Weg entlang Bebauung (parallel Carl-Spitzweg-Straße),409.872067225,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.942706763293,49.4779034470996,Ziegelhüttenweg,854.179806572,Am Sportboothafen,Carl-Spitzweg-Straße,,Feld-Waldweg
+10.9338689906119,49.4824080178054,Ziegelhüttenweg,169.558640883,Auffahrt B8,,,Feld-Waldweg
+10.9295690236168,49.4843193850732,Ziegelhüttenweg,508.315963536,Graf-Pückler-Limburg-Straße,Auffahrt B8,,Feld-Waldweg
+10.9266737801418,49.4855116202458,Graf-Pückler-Limburg-Straße,302.539172855,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9235357406029,49.4781934265518,Regelsbacher Straße,372.391993459,Überquerung SWT,,,Feld-Waldweg
+10.9111746262877,49.4788896025485,entlang B8 Burgfarrnbach,1373.47055319,,,,Feld-Waldweg
+10.9047468899694,49.4778396385521,Egersdorfer Straße,373.718075934,Sperberstraße,Stadtgrenze,,Feld-Waldweg
+10.9184437826215,49.4773867363222,Sperberstraße,1190.41252617,Regelsbacher Straße,Egersdorfer Straße,,Feld-Waldweg
+10.9203432698725,49.4712108398453,Stadtwald,1948.4473579,,,,Feld-Waldweg
+10.923173764493,49.4651351006339,Stadtwald,405.962664906,,,,Feld-Waldweg
+10.9140751565799,49.4673634298543,Stadtwald,931.338282054,,,,Feld-Waldweg
+10.9120037921563,49.4652781316115,Stadtwald,788.156281849,,,,Feld-Waldweg
+10.9230049931219,49.4714648702826,Stadtwald,1424.08449475,,,,Feld-Waldweg
+10.9296502664734,49.4637317592149,Stadtwald,663.892132874,,,,Feld-Waldweg
+10.9209120856697,49.4634409524898,Stadtwald,251.846219613,,,,Feld-Waldweg
+10.9349478977249,49.4638999622824,Stadtwald,738.973640305,,,,Feld-Waldweg
+10.9314141482409,49.4593950128575,Stadtwald,545.461452316,,,,Feld-Waldweg
+10.9445918732865,49.4626870931837,Stadtwald,1396.56295932,Zum Vogelsang,Beim Haderlach,,Feld-Waldweg
+10.9384861445081,49.4624700104737,Stadtwald,582.25639677,,,,Feld-Waldweg
+10.9472294056626,49.4647926989433,Stadtwald,181.254431181,Querverbindung,Paul-Keller-Straße,,Feld-Waldweg
+10.9507280651809,49.465906882482,Heilstättensiedlung,298.995051891,Zum Vogelsang,Paul-Keller-Straße,,Feld-Waldweg
+10.9466303595806,49.4663455001391,Paul-Keller-Straße,150.347904044,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.947299001805,49.4658044124473,Adalbert-Stifter-Straße,125.698222142,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9532189735796,49.4662291208814,Kolpingstraße/Zum Vogelsang,300.3604944,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9527233587507,49.4648451676489,Coubertinstraße,512.277598807,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9598649906117,49.4602767992039,Entensteig,499.094269102,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9607329334577,49.4585987855331,Fröbelstraße,299.200508793,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.955335922211,49.4582679926907,Stadtwald,359.44589103,Zur Eschenau,,,Feld-Waldweg
+10.9616595316508,49.4621230964569,Forsthausbrücke,104.818941631,Zufahrt Kanalweg,,,Feld-Waldweg
+10.9626954111989,49.468445130166,Hardenbergstraße,110.311988061,Breslauer STraße,Beethovenstraße,,anderer Radweg
+10.9508619883811,49.4693270429822,Am Europakanal,655.372781482,Graf-Stauffenberg-Brücke,Rennweg,,"Gehweg, Radfahrer frei"
+10.9491946641127,49.471654386899,Fürberger Steg,189.382257032,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9280996146211,49.4757260974588,Sperberstraße,591.933872227,Am Lehmacker,Regelsbacher Straße,,Feld-Waldweg
+10.9590047520807,49.4729928480855,Unterfürberger Straße,733.351693023,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.954337466888,49.4760460874765,Insterburger Straße,468.14246881,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9481975975033,49.4800082596149,Hardhöhe West,908.563154443,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.948517261284,49.4871438540306,Am Kieselbühl,394.763534634,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9531217086758,49.4852032600683,Würzburger Straße,371.592380939,Am Annaberg,Würzburger Straße 205,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9571919315924,49.4778009534882,Allensteiner Straße,316.991082567,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9524731873329,49.4816561049146,Gaußstraße,367.718653609,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9283411978612,49.4898730753123,Querverbindung,459.84440975,zwischen den Teichen,Friedhof Brgfb.,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9440912147189,49.4916953960529,Hintere Straße,700.055908666,Hafenstraße,Hs.Nr. 88a,,"Gehweg, Radfahrer frei"
+10.9405580442187,49.4922391454743,Hintere Straße,234.585444672,Krähenweg,Farrnbacher Brücke,,"Gehweg, Radfahrer frei"
+10.9253893157771,49.4901169177604,Bahnunterführung Brfb.,126.372574979,,,,Unterführung
+10.9605818722282,49.4743546348061,Weg Unterfürberg,473.077337609,Allensteiner Straße,Cadolzburger Straße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9715111960624,49.4714923399988,Lindenstraße,523.941829962,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9673621380318,49.4699867940894,Uhlandstraße,350.582326163,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9650141675957,49.470992074186,Lindenstraße,210.764639656,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9714340197468,49.4759182349662,Berlinstraße,510.362215379,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.975821401022,49.4732961315716,Weg entlang Freibad,849.435329643,Siebenbogenbrücke,Freibad,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9783905533058,49.4752280436635,Weg entlang Waldmannsweiher,676.130094744,Badsteg,Freibad,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9797974987811,49.4795506965509,Weg Wiesengrund,295.809972834,Cadolzburger Straße,Flutbrücke,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9754635646857,49.4759850749553,Scherbsgraben,291.753789237,Gehweg entlang Scherbsgrabenbad,,,"Gehweg, Radfahrer frei"
+10.981935221492,49.4709636608238,Weg Wiesengrund,432.589093135,Dambacher Straße,Badsteg,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9759007412816,49.4713792147987,unterhalb Siebenbogenbrücke,303.468376969,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9853679898755,49.4688224151851,Amalienstraße zw. Dambacher und Schwabacher Straße,150.612054378,,,,gemeinsamer Rad-und Fußweg
+10.9847571939134,49.4700316686288,Dambacher Straße zw. Karolinen- und Johannisstraße,106.349397777,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9830891260812,49.4726866033973,Mondstraße,91.4193736585,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9833379442673,49.4664604425606,Dambacher Straße,683.543396898,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9835488130378,49.4634633202071,Weg zwischen Talweg und Herrnstraße,145.148235134,Talweg,Herrnstraße,,getrennter Rad- und Fußweg (2 Richtungen)
+10.9812010169116,49.4613435521349,Fuchsstraße,88.56748756,Hochwassersteg,Brücke über Rednitz,,getrennter Rad- und Fußweg (2 Richtungen)
+10.9831574084241,49.4605222192246,Austraße,305.072595484,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9849354481028,49.4587611605381,Jahnstraße,99.2727234391,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9867734552591,49.4590031000235,Jahnstraße Nordseite,151.936986019,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9902376495732,49.4644391459848,Herrnstraße Nordseite,333.976557607,,,,anderer Radweg
+10.989462692887,49.4621676719046,Ludwigstraße,142.938002973,,,,getrennter Rad- und Fußweg
+10.9962978293442,49.4627806587664,Flößaustraße Südseite,326.652719443,Sonnenstr.,Ullsteinstr.,,anderer Radweg
+10.9967620947802,49.4629922764002,Flößaustraße Nordseite,259.696176413,Sonnenstr.,Dr.-Beeg-Str.,,anderer Radweg
+10.9973262833341,49.4644063024672,Sonnenstraße,262.032952512,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9950376083877,49.4676944381845,Benditstraße,153.982790087,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.996667986116,49.470067992804,Luisenstraße,186.902674521,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9895316658193,49.4711837241561,Maxstraße,183.503044407,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0009074465337,49.4673515452382,Jakobinenstraße Unterführung,123.310851536,Karolinenstr.,Gebhardtstr.,,"Gehweg, Radfahrer frei"
+11.0019653806629,49.4656798775249,Leyher Straße,292.634322352,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0048871950014,49.4634990950444,Leyher Straße Westseite,548.472794025,Flößaustraße,Fronmüllerstraße,,Radfahrstreifen
+11.0058871259046,49.4629224109524,Leyher Straße Ostseite,476.111185418,,,,Radfahrstreifen
+11.0096097091443,49.4597219656483,Leyher Straße,240.165209254,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0042152287983,49.4560783622145,Hans-Bornkesselstraße,681.24339519,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0005341985662,49.4552159102569,Magazinstraße,491.241563875,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9978550496345,49.4541769577163,Sandweg,411.6481612,Nord,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.996051695487,49.4523971866328,Sandweg,291.25643284,Süd,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0021707442995,49.4516928253227,Magazinstraße,336.122586285,Europaallee,Stadtgrenze,,anderer Radweg
+11.0024349238059,49.4518330628093,Magazinstraße,328.208425221,Stadtgrenze,Europaallee,,anderer Radweg
+10.9996353852298,49.4572241678116,Querverbindung,222.151415548,Magazinstraße,Zur Kühschanze,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9945547882573,49.4573607453346,Fronmüllerstraße Südseite,356.333078737,,,,Schutzstreifen
+10.9913771005836,49.4546731965698,Jakob-Wassermann-Straße,554.133869887,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9901637675036,49.4476492912294,Schwabacher Straße Westseite,2443.20709422,Jahnstraße,Stadtgrenze N,,"Gehweg, Radfahrer frei"
+10.9904239694509,49.4480082896095,Schwabacher Straße Ostseite,2442.19566109,Stadtgrenze N,Jahnstraße,,"Gehweg, Radfahrer frei"
+10.9783937483267,49.4572627830206,Vestner Weg,491.604106709,,,,Fahrradstraße
+10.9754779883937,49.4555649657645,Kanal Westseite,541.352460254,Friedlandstraße,Am Europakanal,,Betriebsweg MD-Kanal
+10.9704337312914,49.4520219206532,außerhalb (Grenzstraße),405.609186483,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9906180465629,49.4507004391386,Kanalweg Südseite,800.920226986,über Schwabacher Brücke,Stadtgrenze N,,Betriebsweg MD-Kanal
+10.9881882700138,49.4449860145077,Buckweg entlang Bebauung,217.473445739,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9884515322689,49.4399542471514,Buckweg,997.117753901,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0074571510428,49.4725006836928,Röllingersteg,184.663050547,Verlängerung im Wiesengrund,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0068333268446,49.4743742780952,An den Gärten,412.168678818,Pappelsteig,RöllingerSteg,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0078359369792,49.473998599553,An den Gärten,49.3265988002,Stich von Kutzerstraße,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0096494774402,49.4719145500173,Wilhelm-Raabe-Straße,78.972619433,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0123579881891,49.4717459445578,Weg oberhalb Mainau zum Mainausteg,359.668674767,Wilhelm-Raabe-Straße,Mainausteg,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.008773443898,49.4769074758327,Widderstraße,437.895353103,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0053955360276,49.4783788739218,Wiesenstraße,335.612375123,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0126248228493,49.4753018877669,Weg entlang A73,300.173855369,Roßbrücke,Roseggerstraße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0104708109363,49.480129479753,Hans-Vogel-Straße Ostseite,616.930500755,Karl-Bröger-Straße,Poppenreuther Straße,,"Gehweg, Radfahrer frei"
+11.0109220479848,49.4794444457099,Hans-Vogel-Straße Westseite,649.128326836,Poppenreuther Straße,Karl-Bröger-Straße,,"Gehweg, Radfahrer frei"
+11.0072038177766,49.4791394067384,Heubrücke,196.275723305,mit Verlängerung zur G.-Zorn-Straße,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.005332630983,49.4825848498262,Weg entlang A73 (Poppenreuth),816.048768589,Alte Reutstraße,Heubrücke,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0015543234094,49.4815600395604,Pestalozzistraße,146.50352002,Flurstraße,Poppenreuther STraße,,Einbahnstraße frei
+10.973464761764,49.5132747994323,Regnitztalradweg,471.011557026,Fischerberg,Stadelner Hauptstraße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9827496084495,49.511352539659,Thomas-Kleinlein-Straße (Verlängerung),263.562178927,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9962441702553,49.481756319392,Praterweg,288.874524838,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9916602843881,49.4802770734432,Ludwigbrücke Nordseite,215.833280128,,,,anderer Radweg
+10.9917785722218,49.4791441707596,Henri-Dunant-Straße,229.827090083,Sozialrathaus,Ludwigbrücke,,"Gehweg, Radfahrer frei"
+10.9945749862566,49.4791385991604,Talblick,464.838621156,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9872705900812,49.4828853342338,Friedhofweg,236.559630522,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9879275156098,49.4843084961301,Käppnerweg,178.197105563,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9919234779062,49.4843013801063,Am Friedhofsteg,270.126198182,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9934067355128,49.4805145106217,Ulmenstraße,85.9230266079,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9845890781833,49.48474724479,Käppnerweg,540.630926862,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9820962717728,49.4814220478726,Kapellenstraße,469.296166043,,,,getrennter Rad- und Fußweg
+10.9827724662615,49.4815793988061,Kapellenstraße,407.820936343,,,,getrennter Rad- und Fußweg
+10.985951983641,49.4820926710473,Kapellenstraße zw. D.-Bonhoeffer-Brücke und MTV,110.91902881,,,,getrennter Rad- und Fußweg
+10.9821574851236,49.480098984451,Hans-Segitz-Steg,102.891986046,,,,getrennter Rad- und Fußweg (2 Richtungen)
+10.9683616011374,49.4834861440502,An der Martersäule,86.2339882545,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9876940724842,49.4925471366704,Ronwaldstraße,251.475064156,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9845203668206,49.4952238954328,Spitzwiesenstraße,373.69797382,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9832562958992,49.4959184362513,Spitzwiesenstraße (Stich),47.0087846813,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0067983567084,49.4887313217978,Alte Reutstraße,2081.74952783,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0133259507009,49.4944175508227,Querverbindung,286.934366616,Gründlacher Straße,Alte Reutstraße,,Feld-Waldweg
+11.0140913290387,49.496060461252,Querverbindung,678.954338125,Sacker Weg,Stadtgrenze N,,Feld-Waldweg
+11.0100636179551,49.4926100819309,Querverbindung,546.589475847,Gründlacher Straße,Im Stöckig,,Feld-Waldweg
+11.0084077654979,49.4974166902563,Sacker Weg,229.803731523,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0117006500542,49.5024578490931,Blütenstraße,404.624670203,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0149688714283,49.5029644792783,Spargelweg,268.107033613,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0093506928146,49.4992661743946,Querverbindung,188.344963301,Gründlacher Straße,Sacker Hauptstraße,,Feld-Waldweg
+11.0237853106441,49.5050186270346,Nordring,254.389326965,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0037291854488,49.4951294546615,Starenweg,441.691331373,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0055672999584,49.4912505016609,Querverbindung,114.432620439,Starenweg,Im Stöckig,,Feld-Waldweg
+11.0030102148129,49.4907469802232,Querverbindung,346.192984458,Starenweg,Gewendeweg,,Feld-Waldweg
+11.0051785295021,49.4928426847673,Heldstraße,144.849892735,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9998538164989,49.4954590694548,Seeackerstraße mit Brücke (Nordseite),415.168928118,,,,Schutzstreifen
+10.9999375852062,49.4953308473132,Seeackerstraße mit Brücke (Südseite),423.308534628,,,,Schutzstreifen
+10.9838842782965,49.4992949867987,Stadelner Hauptstraße Ostseite (Radstreifen),1639.88696677,Seeackerstraße,An der Waldschänke,,Radfahrstreifen
+10.9829182529286,49.5003759637514,Stadelner Hauptstraße Westseite (Radstreifen),1533.6490993,,,,Radfahrstreifen
+10.9813700965178,49.4995884185322,Begonienstraße,282.991528951,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9841194938843,49.4972518181965,Asternstraße,729.773813601,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.990024918794,49.4919106814074,Erlanger Straße Westseite,662.916424063,Ronwaldstraße,Friedhof Nordeingang,,gemeinsamer Rad-und Fußweg
+11.0020957697857,49.4798478796881,Espanstraße/Kavierlein,269.917147486,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9829499533494,49.5200485037895,Riedäckerweg,996.652208902,,,,Feld-Waldweg
+10.9838059746421,49.5145174788879,Steinacher Straße,151.735696597,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9842354663582,49.516022613849,Herboldshofer Straße,233.266661219,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9759038351818,49.5196061660141,Stadelner Hauptstraße,682.0275021,Dr. David-Morgenstern-Str.,Stadelner Hauptstraße 171,,gemeinsamer Rad-und Fußweg
+10.9559470947392,49.5275901170163,Drei Eichen,1184.66378775,Obermichelbacher  Straße,Herzogenauracher Straße,,Feld-Waldweg
+10.9045866569288,49.4987813335067,entlang Bahn nach Veitsbronn,208.844530231,,,,Feld-Waldweg
+10.9186382855389,49.4999705489851,Weg bei Kompostieranlage (Breiter Steig),2147.31831137,,,,Feld-Waldweg
+10.9162292383238,49.4909083041508,Kühlsheimstraße,295.210423959,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9130146933303,49.4873680851292,Hiltmannsdorfer Straße,161.518725037,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9149668090681,49.4889817177244,Würzburger Straße,455.779133917,,,,Radfahrstreifen
+10.9106276657259,49.4860642191599,Hiltmannsdorfer Straße,818.497813262,Westliche Hummelstraße,Stadtgrenze Lkr.,,Feld-Waldweg
+10.9076265129807,49.4851288978072,Wegverbindung,101.824743209,Hiltmannsdorfer Straße,Haselbergweg,,Feld-Waldweg
+10.9072806348174,49.4831538663296,Haselbergweg,856.253048448,,,,Feld-Waldweg
+10.9090630708993,49.48167994055,Egersdorfer Straße,1446.2664942,,,,Feld-Waldweg
+10.9239984241264,49.4873854783215,Regelsbacher Straße (Stich),178.523318579,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9253679784842,49.4866078225096,Regelsbacher Straße,295.328680296,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9239187404503,49.4887575841503,Würzburger Straße zw. Seilerbahn und Regelsbacher Straße,194.040269478,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9472455953618,49.4904333978518,Ligusterweg,320.815224194,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9517032968646,49.4943781117149,Rosenstockweg,496.911891612,Hafenstraße,Ortsmitte Unterfarrnbach,,Feld-Waldweg
+10.9563519087477,49.4899760426664,Hamburger Straße,143.971030402,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9633990517848,49.4915307394506,Hasellohweg,954.067338089,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.000021128104,49.4791430488541,Gabelung Talblick/Espanstraße,98.2345987658,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.001930516687,49.4772023071924,An den Gärten,499.744890038,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.002060370434,49.4703297220366,Sigmund-Nathan-Straße,98.3816858807,,,,Radfahrstreifen in Gegenrichtung
+11.0010455242748,49.4700984041286,Tannenstraße,105.570927471,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0023786256585,49.4696058153502,Jakobinenstraße,105.937211101,Nürnberger Straße,Lange Straße,,Einbahnstraße frei
+11.0032764583795,49.4698914686774,Lange Straße,78.21127618,Meckstraße,Jakobinenstraße,,Einbahnstraße frei
+11.0043862158749,49.4694920723977,Lange Straße,108.988345534,Spiegelstraße,Meckstraße,,Einbahnstraße frei
+11.005655019857,49.4677545954468,Nürnberger Straße,412.279470808,,,,gemeinsamer Rad-und Fußweg
+10.9951658791455,49.4716965973677,Nürnberger Straße,254.421994241,Otto-Seeling-Promenade,Gustav-Schickedanz-Straße,,"Gehweg, Radfahrer frei"
+10.9967457256713,49.4709949536867,Nürnberger Straße,731.98122273,,,,gemeinsamer Rad-und Fußweg
+10.990287071257,49.4733938908485,Rudolf-Breitscheid-Straße,87.4569246808,Friedrichstraße,Hallstraße,,Fußgängerzone (Radfahrer frei)
+10.990563127666,49.474335361483,Hallstraße,50.3263437337,,,,Radfahrstreifen in Gegenrichtung
+10.9910116892237,49.4747291653395,Hallstraße,68.8198901312,Alexanderstr.,Bäumenstr.,,2-Ri- Radweg  (auf Gehweg)
+10.9910768428049,49.475348495262,Bäumenstraße,88.6082375115,Hallstraße,Höhe Ladehof,,Fußgängerzone (Radfahrer frei)
+10.9899107348123,49.4762988575521,Bäumenstraße,174.640563977,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9892089177596,49.4761051148543,Schirmstraße,128.990596264,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9928175719307,49.4756712205316,Karlsteg,135.831057675,Königstr.,Wiesengrund,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9877679796177,49.4774264571782,Wasserstraße,142.193903594,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9868719468421,49.4774066629678,Gartenstraße,210.011354793,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9872498104002,49.4784097639409,Bella-Rosenkranz-Straße,28.7404794314,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9867039664715,49.479077850504,Königstraße,443.845703542,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9850208084887,49.4803199776727,Wilhelm-Löhe-Straße,118.036049295,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9866713150203,49.4806042229838,Angerstraße,149.475817456,Schießpatz,Marktplatz,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9882371393325,49.4788260891169,Waagstraße,99.5795495833,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.989051023904,49.4789884128303,Gustavstraße,311.851640159,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9856423315899,49.4693815178209,Johannisstraße,146.875486721,Dambacher Straße,Schwabacher Straße,,Einbahnstraße frei
+10.9743901953975,49.4625025364582,Fuchsstraße,162.178719675,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9833086269483,49.4762160339563,Pfisterstraße,166.289374338,Mathildenstraße,Blumenstraße,,Einbahnstraße frei
+10.9826840009041,49.4766951216293,Bogenstraße,229.441268145,Blumenstraße,Weiherstraße,,Einbahnstraße frei
+10.9835087037311,49.4753688234335,Mathildenstraße,98.8662350814,Pfisterstraße,Theaterstraße,,Einbahnstraße frei
+10.9839868511223,49.4739745751492,Marienstraße,250.631517868,Theaterstraße,Ottostraße,,Einbahnstraße frei
+10.9587636139683,49.5169635233259,Weg östl. Kanal,3628.54224604,Stadtgrenze,Hafenbecken südl. Solarberg,,Betriebsweg MD-Kanal
+10.9453599668663,49.5061591042724,Atzenhofer Straße,1348.03505393,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9561486730716,49.5048468359171,Stadelner Straße,2077.47405784,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9547652203204,49.5064271426105,Stadelner Straße,309.217701489,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9341761726387,49.5081134347931,Abzweig Ritzmannshofer Straße nach Veitsbronn,73.0158118885,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0159184272651,49.4791282559363,Querverbindung,522.16931108,Glockenstraße,Hermannstädter Straße,,Feld-Waldweg
+11.0161353319919,49.4807819321235,Glockenstraße,508.793826912,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0205821814528,49.4833676569937,Querverbindung,885.16081073,Höfleser Straße,Poppenreuther Straße,,Feld-Waldweg
+10.9881084091339,49.5112809517168,Weg über Hempeläcker,1028.01541258,,,,Feld-Waldweg
+10.9817515611189,49.5092218191264,Alfred-Nobel-Straße,206.321650925,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9917405989569,49.4800375312731,Ludwigbrücke Südseite,192.777599302,,,,anderer Radweg
+10.9956313629266,49.4864740208785,Erlanger Straße,288.177416545,Mauerstraße,HsNr. 106,,anderer Radweg
+10.9605968818849,49.5264955020665,Malvenweg,483.330175876,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9438311865842,49.5236446218073,Vach: Feldweg nach Obermichelbach,1328.27688101,,,,Feld-Waldweg
+10.9570967470874,49.5091155297321,Stadelner Straße (westlich),592.790331714,Stadelner Straße,Flexdorfer Straße,,Feld-Waldweg
+10.9567514531118,49.5120794927731,Flexdorfer Straße,301.621064828,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9575841708906,49.5129333894774,Zum Ringelgraben,242.39334392,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0060874733942,49.4677577966094,Nürnberger Straße,133.308589737,Lobitzstraße,Finkenstraße,,anderer Radweg
+10.9872768632806,49.5212773679998,Herboldshof,436.73258074,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.977289823687,49.4802445504805,Flutbrücke / Würzburger Straße Südseite,528.695316098,,,,Radfahrstreifen
+10.9821728382542,49.4799308006558,Maxbrücke SW-Seite,82.9724670692,Verkehrsteiler,Uferstraße,,"Gehweg, Radfahrer frei"
+10.9817430659319,49.4789752470131,Uferstraße Uferpromenade,172.205263727,Maxbrücke,Weiherstraße,,"Gehweg, Radfahrer frei"
+11.0035686571097,49.4806768277126,Verl. Widderstraße,76.9733330688,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9871063436927,49.4746076158176,Hirschenstraße,388.1027601,,,,Radfahrstreifen in Gegenrichtung
+10.9885602157866,49.4613003430124,Flößaustraße Nordseite,157.248344552,Steubenstraße,Schwabacher Straße,,"Gehweg, Radfahrer frei"
+10.9633155982174,49.4834051855694,Würzburger Straße,731.236220548,Hansastraße,Unterfarrnbacher Straße,,"Gehweg, Radfahrer frei"
+10.992007733451,49.4672475181146,Amalienstraße,57.8804443379,vor St.Pauls-Kirche,,,"Gehweg, Radfahrer frei"
+10.980934132308,49.4805130254858,Würzburger STraße beim Kulturforum,107.645528063,,,,getrennter Rad- und Fußweg
+10.922664371913,49.4891413273242,Kapellenplatz (Überfahrt),31.5697127179,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9246080184974,49.4898304837422,Zehentweg,170.029273616,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9231533612777,49.4896602247151,Söldgasse,79.4411937875,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.925451755698,49.4892526364749,Lehenstraße,162.300945108,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9229502722595,49.4852379075363,Egersdorfer Straße,275.928622385,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9251739787855,49.4834651613681,Regelsbacher Straße,426.813895794,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9225840816318,49.4886729462928,Seilersbahn,116.087128496,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9234624126384,49.4878465687733,Hummelstraße Ost,168.339382148,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9250417517917,49.4882397095137,Regelsbacher Str.,76.2232772674,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.92706005372,49.4907250795879,Wickenstraße,133.087627307,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9330060356788,49.4886736295574,Stich Geißäckerstr. zu den Teichen,64.5740324539,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9771309326767,49.4860071054123,Rochert-Koch-Straße,445.582844004,Friedrich-Ebert-Straße,Vacher Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9711391558262,49.4823295564989,Wilhelmstraße Ost,239.440120564,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9734418091628,49.481194112682,Fritz-Mailänder-Straße,186.429460767,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9756380646448,49.480691115651,Hochstraße,101.653009179,,,,getrennter Rad- und Fußweg
+10.9788326007292,49.4805030892354,Flutbrücke Nordseite,115.480090286,,,,Radfahrstreifen
+10.9773615221159,49.4806811978836,Billinganlage,117.796669603,,,,gemeinsamer Rad-und Fußweg
+10.9880439922026,49.4463649931537,Weikershofer Straße,269.395601204,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9879782566274,49.4454471814188,Weikershofer STraße,88.0703789557,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9894741582493,49.4454185171221,Ginsterstraße,153.039245879,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9683753558342,49.4610493905346,Lortzingstraße,171.911647246,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9709930867859,49.4614112169152,Weiherhofer Straße,203.184696646,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9752809635347,49.4619579307493,Weiherhofer Straße,273.320061329,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.989862369836,49.4820736421758,Weg zwischen Käppnersteg und Lindenhain,616.153691494,Käppnersteg,Lindenhain,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9859438463273,49.4834097877952,Weg zwischen Wilhelm-Löhe-Straße und Käppnersteg,256.98321382,Wilhelm-Löhe-Straß,Käppnersteg,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9808393773444,49.4814716257911,Stich zwischenKapellenstraße und Heckenweg,96.259047855,Kapellenstraße,Heckenweg,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9973990466137,49.4849725634177,Mauerstraße,348.74571995,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9944856470521,49.4838433595929,Friedenstraße,196.876833978,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9819281374076,49.463244587345,Talweg,447.730155832,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9789907651954,49.461939617851,Weiherhofer Weg,294.65650152,Fuchsstr.,Untere Str.,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9743108824647,49.4630833498671,Lerchenstraße,213.500434413,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9735948956181,49.4648064619972,Dianastraße,186.785385366,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9719520745853,49.4698985771508,entlang Strengspark,395.351674667,,,,Feld-Waldweg
+10.9710766937807,49.4684001642747,Bahnübergang beim Strengspark,20.6654944142,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9752411071645,49.4684051373639,Dianastraße,680.208294464,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9828801562708,49.4709199823391,RW entlang Siebenbogenbrücke,602.833543557,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9833297941101,49.4783396662179,Rosenstraße,305.0263847,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.986085576628,49.4776794586447,Theaterstraße Nord,112.045323651,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9928331041065,49.4723986727359,Gustav-Schickedanz-Straße,80.4165589914,Königstraße,Rudolf-Breitscheid-Straße,,2-Ri- Radweg  (auf Gehweg)
+10.9929758999032,49.4716047532707,Rudolf-Breitscheid-Straße,179.714284415,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0066082579281,49.466912483541,Gebhardstraße,421.333741231,,,,gemeinsamer Rad-und Fußweg
+11.0034883749867,49.4680616199054,Hornschuchpromenade,111.571200574,,,,gemeinsamer Rad-und Fußweg
+10.9956129702511,49.4703551738054,Königswarterstraße,148.447218902,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9959051524814,49.4704955395336,Rudolf-Breitscheid-Straße,149.050138934,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9964612619595,49.465893603038,Sonnenstraße,123.996735957,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9954443942266,49.4660292363195,Adlerstraße,85.4898301334,,,,anderer Radweg
+10.9145879081048,49.4880978888779,Franz-Ringel-Straße,186.478541723,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9177554216146,49.4873104030629,Hummelstraße,580.182188345,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9411769780253,49.4705380435215,Oberfürberger Straße,187.053908413,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9428378283698,49.4681144274939,Eichenstraße,417.140532771,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9790415753121,49.4595144901781,Vestner Weg,405.096794788,,,,getrennter Rad- und Fußweg (2 Richtungen)
+10.9795406968912,49.456237497985,Kellerweg,435.926637515,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9867502481077,49.4516924692013,Am Stübleacker,239.4723972,Auffahrt Kanal,,,Betriebsweg MD-Kanal
+10.9886662796007,49.4511118493996,Am Stübleacker,101.085762097,Treppenanlage,,,Sonstige
+11.0013369407102,49.4573289547037,Zur Kühschanze,255.941355261,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.006817057852,49.4559591626914,Oststraße,430.848480888,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9752540423642,49.4521683636113,Zirndorfer Straße,314.85106647,Am Europakanal/Verbindungsstraße West,Grenzstraße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9825164524871,49.45332877663,Kanal,646.277034142,Am Europakanal,Schwabacher Brücke,,Betriebsweg MD-Kanal
+10.9412517098984,49.4866867544486,Feldweg Geißäckerstr.-Würzburger Brücke,557.675679996,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9348435624988,49.4881613701533,Geißäckerstraße,234.091831652,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9549249288019,49.4721295649836,Unterfürberger Straße,435.403832651,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9564701287975,49.4737587700083,Lycker Straße,267.201037776,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9639934278643,49.4738729664933,Cadolzburger Straße,214.155441144,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.966366910595,49.4736730539049,Breslauer Straße,71.8373296885,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9670014426592,49.4732626575165,Lindenstraße,428.428295279,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9465034352599,49.4673568749476,Heilstättenstraße,624.43388812,Stauffenbergbrücke,Eichenstr.,,Radfahrstreifen
+10.9655146425697,49.464145292678,Forsthausstraße Nordseite,233.297883277,Mozartstraße,Brünnleinsweg,,Schutzstreifen
+10.9679893850462,49.4652291188496,Mozartstraße,294.573186457,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9701698047843,49.4665572316757,Parkstraße,96.8194831949,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9676453788104,49.4677007156521,Uhlandstraße,296.57058453,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9660453237175,49.4683331336412,Hardenbergstraße,239.162626509,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9721724086322,49.4662968957861,Hubertusstraße,279.451127687,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9703840874418,49.466396201014,Parkstraße,98.4316346014,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9262739237473,49.4910888752515,Oberfarrnbacher Straße,225.214068847,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0213761652999,49.5065787327034,Boxdorfer Straße,422.99505883,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0073906178909,49.5096351569779,Am Boxwald,96.1444143187,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0139861085631,49.5068371098612,Nordring,953.827851344,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.01979528611,49.5047158172985,Nordring,266.151003461,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0068825462404,49.4876817646939,Steingartenweg,153.060271053,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0077078503921,49.4869833229434,Hans-Vogel-Straße,169.044818751,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.994018695554,49.4792296376404,Pegnitztalradweg,2420.59516432,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9795805575073,49.4989466855508,Regnitztalradweg,3112.14738871,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9585584980374,49.4857814451064,Ruhsteinweg,868.723465898,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9668829022873,49.483185631761,Ruhsteinweg,139.518641588,Unterfarrnbacher Straße,Würzburger Straße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9760225594472,49.4786172837748,Hardstraße,57.1721982926,Lehmusstraße,Gutenbergstraße,,Einbahnstraße frei
+10.9765462510146,49.477873563506,Gutenbergstraße,128.184886199,,,,Einbahnstraße frei
+10.9770782021698,49.4788879409097,Hardstraße,105.203465487,Gutenbergstraße,Cadolzburger Straße,,Einbahnstraße frei
+10.9777549330593,49.4781197826171,Cadolzburger Straße zw. Scherbsgraben und RW zur Flutbrücke,110.244178328,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9769371000257,49.4773797557801,Scherbsgraben,100.740483887,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9895220721522,49.468811900944,Ludwigstraße,85.2389132229,Karolinenstr.,Lessingstr.,,Fahrradstraße
+10.9911757463257,49.4586774043254,Ludwigstraße Verlängerung zur Dr.-Frank-Straße,199.174462774,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9730053725491,49.4714353965157,Jubiläumsanlage,79.5491410054,,,,"Gehweg, Radfahrer frei"
+10.9893303744498,49.479291479416,Obere Fischerstraße,64.5757516538,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9895495238193,49.4800831506999,Heiligenstraße,182.228214974,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.986172840598,49.4731224591658,Marienstraße zw. Hirschen- und Ottostraße,100.810726222,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9867334140365,49.4726007195985,Ottostraße zw. Max- und Marienstraße,59.3068822147,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9872481728426,49.4720947366382,Maxstraße zw. Otto- und Schwabacher Straße,94.5091785722,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9904625674945,49.4573631812514,Bürkleinstraße zw. Fronmüller- und Dr.-Frank-Straße,73.3465054966,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9915578710071,49.4578596309584,Dr.-Frank-Straße,164.818868968,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9927909801775,49.4577926769554,Steubenstraße zw. Dr.-Frank- und Fronmüllerstraße,34.5376025427,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9901179841262,49.4595651215938,Jahnstraße zw. Bürklein- und Ludwigstraße,64.51696114,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9901163627948,49.458517258458,Bürkleinstraße,196.429027774,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9753351129544,49.5263048344157,Seestraße,456.632976246,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9784470689205,49.5281175105716,Annastraße,97.6625880063,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.922976594852,49.4939381224683,Hintere Straße,785.378975141,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9170988914575,49.4942332069513,Breiter Steig,417.340784683,Einfahrt Supermarkt,Hintere Straße,,"Gehweg, Radfahrer frei"
+10.9172271841146,49.4937891674984,Breiter Steig Unterquerung,179.010520944,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9117462901021,49.4959093624397,entlang Bahn,877.301705604,nach Veitsbronn,,,Feld-Waldweg
+10.9507918335731,49.4901590196487,Unterfarrnbacher Straße,535.33342318,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.955812678935,49.4911052956268,Unterfarrnbacher Straße,191.021058664,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0106758662869,49.4749554873619,Espanstraße,169.752267339,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0123291483484,49.4728161375375,Wilhelm-Raab-Straße,297.040569949,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0127835045524,49.4741376577782,Dammstraße,156.475067809,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9545596813151,49.5242191368799,Oberfarrnbacher Straße,268.773869604,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9340894571877,49.5089125417731,Ritzmannshofer Straße,375.126546462,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9528619966392,49.516405441551,Flexdorfer Straße,2974.53606574,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9349596160559,49.4998884186982,Ritzmannsdorfer Straße,2038.25956174,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9315390398363,49.5107090296111,außerhalb,316.238864566,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9350973213686,49.4921148415958,Hintere Straße,615.275596735,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9801428688814,49.4514918140659,außerhalb,197.64167956,"Ri Oberasbach, Zirndorf",,,Feld-Waldweg
+10.9804532256707,49.4536525288759,Kellerweg (Verbindung),150.101437711,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9956926908968,49.4931881575056,Carlo-Schmid-Straße,334.168804385,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9975469193614,49.4924312613654,Ronhofer Weg,148.777114502,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9985963848901,49.4911966488217,Gewendeweg,282.486038068,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9024761431295,49.5000997810845,außerhalb,238.915719824,"Ri Bernbach, Veitsbronn",,,Feld-Waldweg
+10.9705189188144,49.4526304433613,Fürther Straße (Zirndorf),103.595320014,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0177276683754,49.473152105288,Anzengruberstraße,120.221173215,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0186669179001,49.4748009852308,Kronstädter Straße,262.792266762,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9861815597557,49.519463024283,Herboldshofer Straße,553.838645036,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9853463791812,49.5229307020982,Mannhofer Straße,867.515839795,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.993627682305,49.5149393321336,Steinacher Straße,687.005992213,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9850255297449,49.5148719973371,An der Rampe,511.744748063,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9828418096345,49.5150020200714,Martin-Behaim-Straße,106.136133354,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9835604876337,49.5135362542217,Thomas-Kleinlein-Straße,223.370616929,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9809589127042,49.5127815192581,Hans-Sachs-Straße,528.307025723,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9780110451437,49.50998286198,Gebrüder-Grimm-Straße,538.837789911,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9759585258316,49.5122495717254,An der Christuskirche,219.798025845,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.006175200491,49.5117925737588,Gründlacher Straße,116.060122175,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0005405473812,49.5133575688964,Steinacher Straße,802.613057265,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9993000497378,49.502102682638,Am Reichgraben,542.836930169,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0000270077019,49.500497157675,Bisloher Weg,159.380411966,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0061312933648,49.4926002089699,Im Stöckig,784.319136489,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9756939530423,49.5085101911781,Theodor-Heuss-Straße,127.793240648,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9868291552634,49.505263545221,Am Kronacher Wald,1038.44401988,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9836559855883,49.5080441296536,Theodor-Heuss-Straße,566.193437792,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9716070580306,49.4535155982438,Aldringer Straße,173.233982449,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9712434060791,49.4899293327821,Am Finkenschlag,911.050868252,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9745949100637,49.4939369484221,Friedrich-Ebert-Straße,130.062307687,Finkenschlag,Vacher Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0084983228001,49.4878841477313,Im Stöckig,323.387180141,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0110428255619,49.4814593321962,Strudelweg,278.841543568,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0117202567684,49.4848947416877,Steinfeldweg,519.498201482,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9657342067199,49.5264651074382,Malvenweg,58.4749246141,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9580391695199,49.5248595591675,Zufahrt Kanal,15.525886559,Obermichelbacher Straße (nördlich),,,Feld-Waldweg
+10.9883148627803,49.45031104204,Am Stübleacker,267.989240498,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9881770357982,49.4476639019591,Am Stübleacker,264.244298675,Am Stübleacker,Weikershofer Straße,,Feld-Waldweg
+11.004950677614,49.4714276085416,Röllingersteg,201.594249716,,Dr.-Mack-Straße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0122534181552,49.4707808172088,Pegnitztalradweg zw. Stadtgrenze und Röllingersteg,931.019227071,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0038808624487,49.4745908828821,RW parallel Pappelsteig,326.761578907,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0030372568337,49.472347698866,Zufahrt Engelhardtsteg mit Engelhardtsteg,152.654286933,Otto-Seeling-Promenade,Engelhardtsteg,,getrennter Rad- und Fußweg (2 Richtungen)
+11.0018271795815,49.4859371778187,Flurstraße,712.133589108,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9990042290205,49.489298945277,Storchenstraße,254.703840079,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9970953736918,49.4909600488822,Bohenstraße,189.943737959,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9978113020169,49.4899685429467,Kranichstraße,82.1633348155,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9954733306246,49.4882262150156,Boenerstraße,193.628344129,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9967929437005,49.4892455184209,Kranichstraße,103.225254579,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9983152408576,49.4861134937749,Laubenweg,1187.002852,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0059238712494,49.4963209646025,In der Lohe,362.835268242,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0023980759802,49.4953689298896,Fritz-Gastreich-Straße,105.017393076,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9969806164636,49.4983056692305,Kronacher Straße nördl. Seeackerstraße,1128.78520228,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9677339728482,49.5267394302701,Brückenstraße,196.86519397,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0031064055723,49.5037155329216,Am Schallerseck,627.331288117,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0047172963348,49.5063147976334,Gründlacher Straße,74.6319326305,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0066789460666,49.5072167296929,Bisloher Hauptstraße,282.451252413,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0081088858198,49.5078809833361,Teichstraße,87.8860032992,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0137803256375,49.5062438071301,Sportplatzstraße,476.416581839,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0148090100018,49.5042510331192,Blütenstraße,297.197139788,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0050239600101,49.4989715250809,Seeackerstraße,410.522011683,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0111067771425,49.5007559419519,Sacker Hauptstraße,875.472893899,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0215666502614,49.5013216420382,Boxdorfer Straße,671.505495517,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0202884194085,49.4992418256035,Braunsbacher Straße,231.018653928,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0069527663333,49.4966300421371,Ronhofer Hauptstraße,369.506838743,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9663074810708,49.5295519694905,Herzogenauracher Straße,870.150801393,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9594745391775,49.5323431792142,Abzweig Herzogenauracher Straße nach Hüttendorf,85.5865964815,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9362079686589,49.4812567725202,Am Europakanal (bei Bootsrutsche Burgfb.),230.820588598,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9377610379137,49.480742898118,Ziegelhüttenweg,129.577511997,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9396057314753,49.4810875915339,Am Europakanal (bei Bootsrutsche Burgfb.),135.96485133,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9578021407327,49.4682566666597,Breslauer Straße Südseite,446.141073683,,,,getrennter Rad- und Fußweg
+10.9632978195015,49.4694544383421,Breslauer Straße Ostseite,213.308716649,Hardenbergstraße,Georg-Elser-Steg,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9589901559653,49.4725324318925,Mohnweg,151.4445599,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9597434905539,49.4712806331968,Saatweg,288.878442699,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9966611603161,49.463432570895,Frauenstraße,141.572977777,südl. Kaiserstraße,,,Einbahnstraße frei
+10.9838073179767,49.474673115535,Theaterstraße,124.095622386,Mathildenstraße,Marienstraße,,Einbahnstraße frei
+10.9918280764615,49.4736593278542,Friedrichstraße,55.0651815809,Moststraße,Alexanderstraße,,"Gehweg, Radfahrer frei"
+10.9876275300013,49.4780888266214,Mohrenstraße,91.7828818083,Lilienstraße,Obstmarkt,,Einbahnstraße frei
+10.9886453954823,49.4769234466632,Ludwig-Erhard-/Mohrenstraße,69.8826642861,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9882269690569,49.4776046800252,Ludwig-Erhard-Straße,56.7034617435,Wasserstraße,Obstmarkt,,Fußgängerzone (Radfahrer frei)
+10.9881653582578,49.4746988334147,Blumenstraße,87.2068442568,Hirschenstraße,Schwabacher Straße,zeitlich begrenzt,Fußgängerzone (Radfahrer frei)
+10.9895801356852,49.4745316856734,Moststraße,92.1835449272,Schwabacher Straße,Hallstraße,zeitlich begrenzt,Fußgängerzone (Radfahrer frei)
+10.9898448281991,49.4749827214064,Alexanderstraße,160.943109526,,,zeitlich begrenzt,Fußgängerzone (Radfahrer frei)
+11.0086841871406,49.4669118393353,Nürnberger Str. zw. Kurgarten- u. Geierstraße,100.333531142,,,,anderer Radweg
+11.0108913964195,49.4658501649824,Nürnberger Straße,213.087114225,Hornschuchpromenade,Stadtgrenze,,"Gehweg, Radfahrer frei"
+11.0106723115332,49.4661753336177,Nürnberger Straße,233.743361989,Ludwig-Quellen-Straße,Kurgartenstraße,,"Gehweg, Radfahrer frei"
+10.9896352200169,49.4706141073873,Busspur Bahnhofplatz,73.9589170084,SW-Quadrant,,,Mitbenutzung Busspur
+11.001144426986,49.4649506267166,Waldstraße (Ostseite),148.147117747,Flößaustr.,Kaiserstr.,,getrennter Rad- und Fußweg
+11.0035208389927,49.4619157371174,Waldstraße (Westseite),229.370323797,Flößaustr.,Marsweg,,getrennter Rad- und Fußweg
+11.0086886464337,49.4578268114416,Waldstraße südl. Fronmüller (Ostseite),317.536089784,,,,getrennter Rad- und Fußweg
+11.008195244985,49.45798617246,Waldstraße südl. Fronmüller (Westseite),333.803785834,,,,getrennter Rad- und Fußweg
+10.9809343215508,49.4752522089585,Uferpromenade,702.844388726,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9669856618246,49.4953037004121,Mühltalstraße,789.593976454,,,,"Gehweg, Radfahrer frei"
+10.963875806258,49.4924120759225,Farrnbachsteg,34.8078912998,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9919691876776,49.4501317507557,Benno-Strauß-Straße,107.523744315,Auffahrt MD-Kanal,,,Betriebsweg MD-Kanal
+10.9705466285224,49.4750693223972,Cadolzburger Brücke (entfallen 2009),49.8634669797,auf Brücke,,,Radfahrstreifen in Gegenrichtung
+11.0127754559559,49.4686647934048,Quellensteg und Verlängerung in Uferstadt,216.892752713,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9391304588328,49.4714216590088,Verbindungsweg Rennweg-Oberfürberger Str.,94.9439581006,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9392964562194,49.4703276958358,Oberfürberger Str.,125.704417791,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9487042468331,49.4807583860348,Daimlerstraße (Stich),49.7142883762,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9680122146812,49.4986548356791,Hermann-Köhl-Str.,105.709449613,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9681268265861,49.49868622848,Käthe-Brand-Str.,101.371472863,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.955038834656,49.4804663411957,zur Gaußstraße,130.300208589,,,,"Gehweg, Radfahrer frei"
+10.955451910079,49.4796176181019,zur Gaußstraße,145.133222533,,,,"Gehweg, Radfahrer frei"
+10.9547726352438,49.4791879403925,zur Gaußstraße,134.283471565,,,,"Gehweg, Radfahrer frei"
+10.9979863917779,49.4827911277102,Erlanger Str. zw. Poppenreuther und Mauerstr.,367.332024238,,,,Radfahrstreifen
+10.9908864394739,49.4914439883917,Erlanger Straße,347.363804917,HsNr. 146,Kronacher Straße,,Schutzstreifen
+10.9568248716531,49.4833212997329,Verbindungsweg Komotauer - Würzburger Str.,492.530371159,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9251167517415,49.4912967394921,Siegelsdorfer Str. (Stich zur),163.14280302,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9234540679426,49.4924523118034,Siegelsdorfer STr.,553.805068886,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9901169553321,49.4739165729695,Hallstraße,63.1040746817,Rudolf-Breitscheid-Straße,Moststraße,,Fußgängerzone (Radfahrer frei)
+10.9859854461736,49.4770097467419,Rosenstraße,100.458911593,Theaterstr.,Hallemannstr.,in Gegenrichtung,Schutzstreifen
+10.9874877339947,49.4761078287771,Rosenstraße,129.954998002,Hallemannstr.,Hirschenstr.,in Gegenrichtung,Schutzstreifen
+10.985732241324,49.472520257287,Maxstraße,152.051864865,Hirschenstr.,Ottostr.,,Radfahrstreifen in Gegenrichtung
+10.950714971727,49.4693197910297,Am Europakanal,598.481534931,Graf-Stauffenberg-Brücke,Rennweg,,Schutzstreifen
+10.9499803233997,49.4697560205463,Am Europakanal,605.517199765,Rennweg,Graf-Stauffenberg-Brücke,,Schutzstreifen
+10.9576615053656,49.4650517422795,Am Europakanal,850.906648868,,,,Schutzstreifen
+10.961695171656,49.460871281001,Am Europakanal,386.580831286,,,,Schutzstreifen
+10.9633805252739,49.4588765955629,Am Europakanal,393.775176085,,,,Schutzstreifen
+10.970451140063,49.4576973152994,Am Europakanal,362.43032523,,,,Schutzstreifen
+10.9739600863829,49.4560518930348,Am Europakanal,352.874588004,,,,Schutzstreifen
+10.9719363397581,49.4570297638969,Am Europakanal,1208.17726992,Kellerweg nördlich,Am Eschenausteg,,Schutzstreifen
+10.9618569057841,49.4607053658172,Am Europakanal,371.657339121,Am Eschenausteg,Forsthausbrücke,,Schutzstreifen
+10.9922649599554,49.4495181213968,Stich Benno-Strauß-Straße,100.915643813,Kanal,Benno-Strauß-Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.005181937875,49.4796955436727,Espanstraße/Kavierlein,261.392421191,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0006933335256,49.4794268407894,Espanstraße,88.1616298823,Talblick,Am Kavierlein,,Schutzstreifen
+11.0029717672118,49.4781989483125,Espanstraße,247.957550689,Kutzerstraße,Wiesenstraße,,Schutzstreifen
+11.0058488533312,49.4768990803986,Espanstraße,340.610433367,Wiesenstraße,Am Sonnenhügel,,Schutzstreifen
+11.0081689709607,49.475799632713,Espanstraße,88.6908460682,Am Sonnenhügel,Hs.Nr. 85,,Schutzstreifen
+11.0088270659498,49.4753535770899,Espanstraße,90.0887624023,Hs.Nr. 85,Karl-Bröger-Straße,,"Gehweg, Radfahrer frei"
+11.0103298527392,49.4757146913156,Stich zur Widderstr.,21.5204127834,Karl-Bröger-Str.,Widderstr.,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+11.0119847096253,49.4763549862201,Karl-Bröger-Str.,286.132665756,Höhe Widderstr.,Hans-Vogel-Str.,,Schutzstreifen
+11.011804092285,49.4763315556704,Karl-Bröger-Str.,272.230543129,Hans-Vogel-Str.,Höhe Widderstr.,,Schutzstreifen
+11.0059302501149,49.4769616321691,Espanstr.,306.558416225,Schilfweg,Wiesenstr.,,Schutzstreifen
+11.002502572916,49.4785581402808,Espanstr.,273.245682569,Wiesenstr.,Am Kavierlein,,Schutzstreifen
+11.0002227396717,49.4791814023856,An den Gärten,85.5018686372,Zuwegung von Espanstraße,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9805857600875,49.461587477151,Dambacher Brücke,47.6913535185,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9816854149508,49.4536537791218,Kellerweg,218.653374083,unter SWT und Kanal,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9875151088017,49.4638302153003,Herrnstraße Südseite,165.870596415,,,,getrennter Rad- und Fußweg
+10.9900562078433,49.4642360306292,Herrnstraße Südseite,169.334356488,Ludwigstr.,Simonstr.,,getrennter Rad- und Fußweg
+10.9931952218789,49.4647931188777,Herrnstraße Südseite,309.869724015,Simonstr.,Stresemannplatz,,getrennter Rad- und Fußweg
+10.9962794761212,49.4653813960954,Herrnstraße Südseite,58.6064430511,Stresemannplatz,Sonnenstr.,,Schutzstreifen
+10.9987864511473,49.4658968021268,Herrnstraße Nordseite,240.702662938,,,,getrennter Rad- und Fußweg
+10.996405567981,49.4654612362271,Herrnstraße Nordseite,56.8618608284,Sonnenstr.,Stresemannplatz,,Schutzstreifen
+10.9947786074482,49.4651846731068,Herrnstraße Nordseite,27.0785218102,Stresemannplatz,Stresemannplatz,,Schutzstreifen
+10.9874494286159,49.463940620627,Herrnstraße Nordseite,167.454847895,Ludwigstr.,Schwabacher STr.,,getrennter Rad- und Fußweg
+10.9853576281564,49.4636747415012,Herrnstraße Nordseite,127.757191382,Ludwigstr.,Schwabacher STr.,,getrennter Rad- und Fußweg
+11.0011556683083,49.4681592580817,Jakobinenstraße,32.0035212319,über Gebhardtstr.,,,Radfahrstreifen
+11.0007979546658,49.4675539238781,Jakobinenstraße (Unterführung),115.177407688,Ri Karolinenstraße,,,gemeinsamer Rad-und Fußweg
+11.0012645506115,49.4681162423243,Jakobinenstraße,40.358326687,Überfahrt Gebhardtstr.,,,Sonstige
+11.001644518428,49.4687043691091,Jakobinenstraße,100.087947281,Platz der Opfer d.F.,Nürnberger Str.,,Radfahrstreifen in Gegenrichtung
+11.0002629406049,49.465760498751,Waldstraße Westseite,86.6039186795,Herrnstr.,Kaiserstr.,,getrennter Rad- und Fußweg
+11.0011150968158,49.4646562824425,Waldstraße Westseite,151.578594182,Kaiserstr.,Flößaustr.,,getrennter Rad- und Fußweg
+11.00224808126,49.4632744698029,Waldstraße Westseite,146.815972554,Kaiserstr.,Balbiererstr.,,getrennter Rad- und Fußweg
+11.005129058553,49.4605280382968,Waldstraße Westseite,132.559747614,Marsweg,Fronmüllerstr.,,getrennter Rad- und Fußweg
+11.0043062737941,49.4614821311924,Waldstraße Ostseite,372.16954694,Fronmüllerstr.,Balbiererstr.,,getrennter Rad- und Fußweg
+11.0023058002284,49.4635526605253,Waldstraße Ostseite,145.436246122,Balbiererstr.,Flößaustr.,,getrennter Rad- und Fußweg
+11.0005839691897,49.4656963108889,Waldstraße Ostseite,87.1361702988,Kaiserstr.,Herrnstr.,,getrennter Rad- und Fußweg
+11.0058702163743,49.4599166271899,Waldstraße,23.7473495763,Einfahrt Kreisverkehr,,,Radfahrstreifen
+11.0059991513925,49.4599514218363,Waldstraße,24.492617188,Ausfahrt Kreisverkehr,,,Radfahrstreifen
+11.0004426388891,49.4664949753741,Ritterstraße,79.8067411279,Walstr.,Leyher Str.,,getrennter Rad- und Fußweg
+11.0005989698867,49.4667950933892,Ritterstraße,12.9571555716,Leyher STr.,Karolinenstr.,,"Gehweg, Radfahrer frei"
+10.9836005625773,49.4625164813931,Dambacher Straße,251.988350391,Kaiserstraße,Herrnstraße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9911684518068,49.4695561798407,Osttunnel,93.2092968224,Karolinenstraße,Bahnhofplatz,,Unterführung mit Rampen
+10.991040663078,49.4691400084934,Osttunnel,12.8523971369,Ost-Rampe,Karolinenstraße,,Unterführung mit Rampen
+10.9906620700048,49.4703330059517,Busspur Bahnhofplatz,73.9853164235,SO-Quadrant,,,Mitbenutzung Busspur
+10.9955530559842,49.4686929360287,Luisentunnel,163.917814877,Karolinenstraße,Luisenstraße,,Unterführung mit Rampen
+10.9883250686676,49.4696966224389,Karolinenstraße,202.019968411,Schwabacher Straße,Ludwigstraße,,Schutzstreifen
+10.9918275258901,49.4688964523607,Karolinenstraße,71.1599576564,Osttunnel,Simonstraße,,Schutzstreifen
+10.9935051556667,49.4685153868182,Karolinenstraße,144.060810788,Simonstraße,Karlstraße,,Schutzstreifen
+10.9927426870057,49.4687422752452,Karolinenstraße,232.669584033,Karlstraße,Osttunnel,,Schutzstreifen
+10.9900987406744,49.4692907594719,Karolinenstraße,52.7768772013,Ludwigstraße,Osttunnel,,Schutzstreifen
+10.9891321012437,49.4695609447715,Karolinenstraße,256.414793651,Osttunnel,Schwabacher Straße,,Schutzstreifen
+10.9893312908068,49.4682906595211,Karolinenstraße,63.9658506335,Amalienstr.,Lessingstr.,,"Gehweg, Radfahrer frei"
+10.9886310750215,49.4673367437541,Ludwigstraße,144.906801312,Amalienstraße,Fichtenstraße,,"Gehweg, Radfahrer frei"
+10.9885985060065,49.4646092457846,Ludwigstraße,89.8632275417,Herrnstraße,Holzstraße,,getrennter Rad- und Fußweg
+10.9884707915908,49.4658308590248,Ludwigstraße,157.664562395,Holzstraße,Fichtenstraße,,getrennter Rad- und Fußweg
+10.9888963218668,49.4634323477329,Ludwigstraße,132.604385244,Kaiserstraße,Herrnstraße,,getrennter Rad- und Fußweg
+10.9900483520268,49.460971390198,Ludwigstraße,201.17372586,Jahnstraße,Flößaustraße,,getrennter Rad- und Fußweg
+10.9923662772086,49.4619512670192,Flößaustraße,250.200915325,Steubenstr.,Ullsteinstr.,,anderer Radweg
+11.0001071341652,49.4635729795081,Flößaustraße Südseite,243.662609663,Sonnenstr.,Waldstr.,,anderer Radweg
+10.9902433626353,49.4616517486805,Flößaustraße Nordseite,79.3471951689,Steubenstraße,Schwabacher Straße,,"Gehweg, Radfahrer frei"
+10.9915578007655,49.4619281737447,Flößaustraße Nordseite,101.512411625,Steubenstr.,Simonstr.,,anderer Radweg
+10.9931309598771,49.4622440155406,Flößaustraße Nordseite,136.388403924,Zeppelinstr.,Simonstr.,,anderer Radweg
+10.9945604357092,49.4625405135707,Flößaustraße Nordseite,74.9801203303,Dr.-Beeg-Str.,Zeppelinstr.,,anderer Radweg
+11.000093671418,49.4636875720915,Flößaustraße Nordseite,242.178021557,Sonnenstr.,Waldstr.,,anderer Radweg
+10.9895434607466,49.4570011966071,Fronmüllerstraße Nordseite,123.77830678,,,,getrennter Rad- und Fußweg
+10.994616386477,49.4574568237184,Fronmüllerstraße Nordseite,223.52307683,,,,Schutzstreifen
+11.0035558510405,49.4602495484761,Marsweg,236.88602066,Fronmüllerstraße,Venusweg,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.992932148355,49.4574192499963,Steubenstraße,21.9668351771,,,,Schutzstreifen
+10.9930738302711,49.4571837718514,Fronmüllerstraße,15.6582721718,,,,Schutzstreifen
+10.9896423328506,49.4722213028808,Friedrichstraße,151.433076355,Maxstraße,Fürther Freiheit,,"Gehweg, Radfahrer frei"
+10.9906354598077,49.4728649319769,Friedrichstraße,35.8063647152,entlang Freiheit,,,"Gehweg, Radfahrer frei"
+10.9911922356797,49.4732291127867,Friedrichstraße,57.4862253699,Fürther Freiheit,Moststraße,,"Gehweg, Radfahrer frei"
+11.0025440248935,49.4689014815106,Nürnberger Straße,90.0032152213,,,,gemeinsamer Rad-und Fußweg
+11.0025231320835,49.4690355687993,Nürnberger Straße,74.5281183305,Meckstraße,Jakobinenstraße,,anderer Radweg
+11.0036745215723,49.4686228294198,Nürnberger Straße,95.3533841244,Spiegelstraße,Meckstraße,,anderer Radweg
+11.0047686010942,49.4682306188068,Nürnberger Straße,68.9966592262,Finkenstraße,Spiegelstraße,,anderer Radweg
+11.0074159398792,49.467281516874,Nürnberger Straße,71.6777421219,Geierstraße,Lobitzstraße,,anderer Radweg
+11.0031603096652,49.4705175261353,Jakobinenstraße,105.076668733,Langestraße,Dr.-Mack-Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0013445449256,49.4694518028588,Nürnberger Straße,100.432742584,Jakobinenstraße,Tannenstraße,,"Gehweg, Radfahrer frei"
+11.0001179539428,49.4698974852586,Nürnberger Straße,91.6798779504,Tannenstraße,Maistraße,,"Gehweg, Radfahrer frei"
+10.9988786596024,49.4703477612762,Nürnberger Straße,93.391894343,Maistraße,Sommerstraße,,"Gehweg, Radfahrer frei"
+10.9978254985158,49.4707303930245,Nürnberger Straße,62.3169187999,Sommerstraße,Goethestraße,,"Gehweg, Radfahrer frei"
+10.9968873432904,49.4710712261159,Nürnberger Straße,78.1837630071,Goethestraße,Otto-Seeling-Promenade,,"Gehweg, Radfahrer frei"
+11.0093018624395,49.4674119532228,Lange Straße,140.55484955,Kurgartenstraße,Geierstraße,,Einbahnstraße frei
+11.007998576902,49.4679478564226,Lange Straße,82.8568097102,Geierstraße,Lobitzstraße,,Einbahnstraße frei
+11.0067645733224,49.4684552410226,Lange Straße,138.182998073,Lobitzstraße,Finkenstraße,,Einbahnstraße frei
+11.0054920164629,49.468977701106,Lange Straße,77.6829424049,Finkenstraße,Spiegelstraße,,Einbahnstraße frei
+10.9884774678133,49.4763034577215,Hirschenstraße,84.8646751055,Gartenstraße,Rosenstraße,,"Gehweg, Radfahrer frei"
+10.9886465746383,49.4766581580928,Kohlenmarkt,26.4797176536,Ludwig-Erhard-Straße,Gartenstraße,,"Gehweg, Radfahrer frei"
+10.9879945213685,49.4779032830757,Obstmarkt,33.6522301573,Ludwig-Erhard-Straße,Mohrenstraße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9902030208296,49.4742838320147,Mostraße,26.5173582439,Hallstraße,Mosttraße 13,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9995439262455,49.4692708927351,Willy-Brandt-Anlage,372.787375497,Luisenstraße,Jakobinenstraße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.994528989423,49.4708186376074,Weg vor ehem. Baureferat,40.1377957657,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9870196564041,49.4798531656727,Marktplatz,83.179390215,Gustavstraße,Königstraße,,Fußgängerzone (Radfahrer frei)
+10.991422148294,49.4700460161938,Bahnhofplatz (Ausfahrt),22.2189304018,beim Hochhaus,Gebhardtstraße,,getrennter Rad- und Fußweg
+10.9911663248774,49.47071246325,Bahnhofplatz,55.9273974048,NO-Quadrant,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9754324374422,49.4714484958235,entlang Strengspark,223.137663147,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9496272238892,49.4839632777995,Am Kieselbühl,292.702393539,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9498756306188,49.4824698818386,Gaußstraße,155.016611097,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.960509864856,49.490242930351,Ruhsteinweg,393.016264571,Hasellohweg,Wilhelmshavener Straße,,Feld-Waldweg
+11.0022066984957,49.498502657036,Ronhofer Hauptstraße,392.523145317,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.00215539948,49.4962581551456,Seeackerstraße,76.9464634637,Fritz-Gastreich-Straße,nördlich,,"Gehweg, Radfahrer frei"
+11.0045681191905,49.4919189649959,Starenweg,261.802685214,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9684114081803,49.4887421887828,Querverbindung,295.886361326,Finkenschlag entlang Bahn,Robert-Koch-Straße,,Feld-Waldweg
+10.9456496882844,49.4910639568464,Unterfarrnbacher Straße,57.9633381901,Gehweg zur Ligusterstraße,,,2-Ri- Radweg  (auf Gehweg)
+10.9437586548294,49.4916887293975,Farrnbacher Brücke,225.398418355,Geißäckerstraße,Hafenstraße,,"Gehweg, Radfahrer frei"
+10.9929276544582,49.4572423531058,Fronmüllerstraße,75.0871480008,,,,Schutzstreifen
+10.9632934022344,49.4593903785649,Zufahrt Eschenausteg,61.8019300349,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9589063732267,49.4584184914813,Fröbelstraße,72.7716911906,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9654413207317,49.4596466754149,Fröbelstraße,245.514395155,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0021506436388,49.4684214691447,Hornschuchpromenade,88.7405372317,,,,gemeinsamer Rad-und Fußweg
+10.9636258912715,49.473504619637,Unterfürung Unterfürberg,34.2874553066,Cadolzburger Straße,Unterfürberger Straße,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+,,Breiter Steig Unterquerung,0,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9380919471457,49.5079135656959,Ritzmannsdorfer Straße,157.945108288,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.932809277759,49.5079427142119,Verlängerung nach Veitsbronn,118.844992287,Ritzmannshofer Straße (Stich),,,Feld-Waldweg
+10.9493430365969,49.4852693346457,Zufahrt Würzburger Straße OBI,17.1319078605,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9426126081253,49.4875875142638,Hafenstraße,431.420593192,entlang Minigolf,,,getrennter Rad- und Fußweg (2 Richtungen)
+10.9538743570419,49.4919801325206,Rosenstockweg,141.805782166,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9985079450912,49.4810856560587,Erlanger Str. zw. Poppenreuther und Mauerstr.,99.4398099552,,,,Schutzstreifen
+10.9919664469581,49.4571763113216,Fronmüllerstraße Nordseite,116.142457671,,,,Schutzstreifen
+10.9901071625957,49.4803415633735,Unterführung,70.0082766707,Kirchenplatz,Sportplätze Wiesengrund,,Unterführung
+10.9899993501889,49.4806831919136,Kapellenstraße Stich zum Wiesengrund,22.9700244466,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9895971018969,49.4845657682287,Friedhofweg,151.68641301,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9868257692869,49.4819344525762,Friedhofweg Unterquerung Kapellenstraße,77.9377523909,,,,Unterführung
+10.9848838413856,49.4812209202596,RW zw. Wilhelm-Löhe-Straße und Käppnersteg,135.482062423,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9852283675687,49.482114931574,RW zw. Wilhelm-Löhe-Straße und Käppnersteg,41.0011017207,,,,Unterführung
+10.9833937508675,49.4828352427393,Stich zur Kapellenruh,163.294042821,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9882908486665,49.4681028297846,Amalienstraße,180.970882344,Schwabacher Straße,Ludwigstraße,,anderer Radweg
+10.990289495395,49.4676475310277,Amalienstraße,178.157920759,Ludwigstraße,Simonstraße,,anderer Radweg
+10.9939748695936,49.4667912264206,Amalienstraße,252.228863554,Winklerstraße,Adlerstraße,,anderer Radweg
+10.9954081367793,49.4654580137715,Adlerstraße,25.4185543124,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9955945894397,49.4660398322847,Adlerstraße,93.8693943994,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9957920501087,49.4646831118384,Frauenstraße,104.039414537,Herrnstraße,Kaiserstraße,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0029955853183,49.4968312786214,Seeackerstraße,220.800955685,Fritz-Gastreich-Straße,Ronhofer Hauptstraße (Kreisverkehr),,"Gehweg, Radfahrer frei"
+10.9150535883816,49.4891095329944,Würzburger Straße,531.104687891,,,,Radfahrstreifen
+10.9079842481322,49.4884112653675,Würzburger Straße,820.501355277,Narzissenstraße,Stadtgrenze,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9127763905161,49.4888780950059,Würzburger Straße,106.593727045,BusHalt,Narzissenstraße,,gemeinsamer Rad-und Fußweg
+10.9167551010742,49.4889105068586,möglicher Durchlass ?,33.4850089359,Würzburger Straße,Bienenstraße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9564495607718,49.4799911505242,Soldnerstraße Ostseite,174.169982581,,,,getrennter Rad- und Fußweg
+10.9561126568828,49.4798437844004,Soldnerstraße Westseite,169.251166578,,,,getrennter Rad- und Fußweg
+10.9564724098255,49.4789113044477,Soldnerstraße,54.6279607205,,,,gemeinsamer Rad-und Fußweg
+10.9568054285177,49.4749305834181,Unterfürberg RW entlang Bahnlinie,120.795850756,,,,Unterführung
+10.9575558847539,49.4753980058939,Allensteiner Straße Stich,61.0616686207,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9580776583712,49.4756951494706,Zoppoter Straße,58.5092159402,Allensteiner Straße,Zoppoter Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9645163487908,49.4759418237242,Stettiner Straße,106.605317355,Tilsiter Straße,Breslauer Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9636792029642,49.4761475021255,Tilsiter Straße (Durchlass sicherstellen),86.500287437,Zoppoter Straße,Stettiner Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9608659452035,49.476047004231,Zoppoter Straße (West-Ost),364.90552327,Zoppoter Straße,Stettiner Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9615770794481,49.4622386905854,Forsthausbrücke Abbieger,25.1688267457,,,,Schutzstreifen
+10.9618133809648,49.4624133930049,Forsthausbrücke Linksabbieger,64.1242451011,,,,Schutzstreifen
+10.96593229942,49.4641515976741,Forsthausstraße Südseite,200.994165687,Brünnleinsweg,Mozartstraße,,Schutzstreifen
+10.9553353262691,49.4677660148421,Breslauer Straße Nordseite,223.843863318,,,,Radfahrstreifen
+10.9555390060969,49.4675973802437,Breslauer Straße Südseite,200.968411415,Graf-Stauffenberg-Brücke,,,getrennter Rad- und Fußweg
+10.9558713471732,49.4680259538365,Breslauer Straße Nordseite,35.12216063,Auffahrt,Graf-Stauffenberg-Brücke,,getrennter Rad- und Fußweg
+10.9568770420371,49.4684003376065,Breslauer Straße Nordseite,129.153495593,Mohnweg,Graf-Stauffenberg-Brücke,,getrennter Rad- und Fußweg
+10.9566834793146,49.4682211521959,Breslauer Straße (Nordseite),128.845103725,westlich Mohnweg,Graf-Stauffenberg-Brücke,,Radfahrstreifen
+10.9426488248111,49.4746451143975,Verlängerung Emil-Nolde-Straße,238.641457607,,,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9241359906896,49.4809022841323,Regelsbacher Straße,189.992608619,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9462252571095,49.4586624396433,Stadtwald,1321.7661325,,,,Feld-Waldweg
+10.9246632485369,49.4616977537082,Stadtwald,1025.96502795,,,,Feld-Waldweg
+10.9559697335997,49.4793240502968,zur Gaußstraße,29.0603860953,,,,"Gehweg, Radfahrer frei"
+10.9597280655527,49.479534279487,Verbindungsweg Hardhöhe,300.469186643,Reichenberger Straße,Soldnerstraße,,"Gehweg, Radfahrer frei"
+10.9543174827955,49.4792524299519,Verbindungsweg Hardhöhe,17.425953397,bei Hl.-Geist-Kirche,,,"Gehweg, Radfahrer frei"
+10.9544340945467,49.479177283893,Verbindungsweg Hardhöhe,20.3746754217,bei Hl.-Geist-Kirche,,,"Gehweg, Radfahrer frei"
+10.9544793543449,49.4789362630736,Verbindungsweg Hardhöhe,39.0265002223,bei Turnhalle,,,"Gehweg, Radfahrer frei"
+10.9610810624242,49.4798675972194,Wegverbindung,97.4353867588,Reichenberger Straße,Siemensstraße,,"Gehweg, Radfahrer frei"
+10.9823229675632,49.4756249500066,Mathildenstraße,82.4489011262,Badstraße,Pfisterstraße,,Einbahnstraße frei
+10.9861884562013,49.4731367888835,Marienstraße,98.7728671072,Theaterstraße,Ottostraße,,Einbahnstraße frei
+10.9875039091097,49.4727672797251,Marienstraße,92.2278471681,Ottostraße,FuZo,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9808956358318,49.4802523874662,Flutbrücke / Würzburger Straße Südseite,145.864426387,,,,getrennter Rad- und Fußweg
+10.98780243369,49.4683295205098,Amalienstraße,184.298632531,Ludwigstraße,Schwabacher Straße,,anderer Radweg
+10.9903302252309,49.4677494046241,Amalienstraße,175.418732734,Simonstraße,Ludwigstraße,,anderer Radweg
+10.9925450073808,49.4672419391381,Amalienstraße,142.784333772,Karlstraße,Simonstraße,,anderer Radweg
+10.994638625857,49.466757674245,Amalienstraße,153.934739492,Adlerstraße,Karlstraße,,anderer Radweg
+10.9859526430192,49.4702257081967,Karolinenstraße,150.657313266,Dambacher Straße,Schwabacher Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0039263562142,49.4643556262512,Leyher Straße Ostseite,74.6796013203,Landmannstraße,Flößaustraße,,getrennter Rad- und Fußweg
+11.0161330662631,49.4713665357529,Mainausteg,108.559840253,,,,getrennter Rad- und Fußweg (2 Richtungen)
+11.0173240286483,49.4745569119764,Hans-Böckler-Straße Ostseite,723.352325289,Kreuzsteinweg,Karl-Bröger-Straße,,"Gehweg, Radfahrer frei"
+11.0165977366928,49.4748742929918,Hans-Böckler-Straße,731.460944884,Karl-Bröger-Straße,Herderstraße,,"Gehweg, Radfahrer frei"
+10.992758829124,49.4894389357336,Erlanger Straße,114.673835789,HsNr. 132,HsNr. 146,,Radfahrstreifen
+10.9941962694413,49.4879641638282,Erlanger Straße,146.661922379,HsNr. 106,Kronacher Straße,,Schutzstreifen
+10.9753629429178,49.510496574267,Stadelner Hauptstraße,500.299916574,Theodor-Heuss-Straße,Fischerberg,,Schutzstreifen
+10.975267122561,49.5104665888838,Stadelner Hauptstraße,481.134237051,Fischerberg,Theodor-Heuss-Straße,,Schutzstreifen
+10.9764838495543,49.5086748274748,Querungshilfe Stadelner Haupstraße,7.27014060583,Höhe Dr. Konrad-Adenauer-Straße,,,Radfahrstreifen
+10.9616039202925,49.5313442384075,Zufahrt Betriebsweg MD-Kanal Westseite,260.51725932,Vach,Herzogenauracher Straße,,Feld-Waldweg
+11.001377292631,49.4824949144116,Flurstraße,98.4110318756,Frühlingstraße,Laubenweg,,Einbahnstraße frei
+10.994096114321,49.4804093290354,? mögliche Querverbindung?,45.8928127834,Friedenstraße,Ulmenstraße,,Sonstige
+10.9818070258877,49.4801720507446,Querung Höhe Kulturforum,20.8259501346,,,,Sonstige
+10.9772193730418,49.454357188935,Verbindungsstraße West,132.883084191,,,,"Gehweg, Radfahrer frei"
+10.9765772901704,49.4548504790135,Am Europakanal,95.265424655,,,,Schutzstreifen
+10.9771281902545,49.4546088541391,Querungshilfe Zufahrt Betriebsweg,17.8602534483,Am Europakanal,,,Sonstige
+10.9663918329559,49.5327029587805,Hüttendorfer Weg,193.387414825,Ri Erlangen,,,Feld-Waldweg
+10.9662650381338,49.5310409932226,Hüttendorfer Weg,296.271338329,Lohstraße,Anliegerstraße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9671094903643,49.5295604495519,Lohstraße,158.313260532,Herzogenauracher Straße,Hüttendorfer Weg,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9683456033995,49.4863334151126,Virchowstraße,392.964131292,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9685686974086,49.4839543149572,Wilhelmstraße West,247.423667608,Auf der Schwand,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9710698132722,49.4873785782331,Rochert-Koch-Straße,312.366408764,Virchowstraße,Finkenschlag,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9726555766749,49.4867187992067,Rochert-Koch-Straße,101.552522344,Finkenschlag,Friedrich-Ebert-Straße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.979272142389,49.4853659783591,Vacher Straße,53.2718760014,Robert-Koch-Straße,Käppnerweg,,"Gehweg, Radfahrer frei"
+10.9755652891328,49.4973051179492,Entlang Bahndamm zur Brücke Begonienstraße,501.2703504,Vacher Straße,Regnitzufer,,Feld-Waldweg
+10.970499951177,49.4940213802802,Entlang Bahndamm,569.493239405,Vacher Straße,Verbindung zur Mühltalstraße,,Feld-Waldweg
+11.0035102764468,49.4715637415578,Zufahrt Engelhardtsteg mit Engelhardtsteg,86.1172985801,Otto-Seeling-Promenade,Engelhardtsteg,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9834227716959,49.4736557748725,Theaterstraße,113.696756231,Marienstraße,Theresienstraße,,Einbahnstraße frei
+10.9824281744357,49.4738693193228,Pfisterstraße,130.153793756,Theresienstraße,Marienstraße,,Einbahnstraße frei
+10.9826952740993,49.4750484111716,Pfisterstraße,113.033690899,Marienstraße,Mathildenstraße,,Einbahnstraße frei
+11.01023306991,49.4753751241331,Karl-Bröger-Straße,78.9518069006,SO-Seite,Karl-Bröger-Straße,,"Gehweg, Radfahrer frei"
+10.9908716530056,49.4691788823133,Osttunnel,13.1359363867,West-Rampe,Karolinenstraße,,Unterführung mit Rampen
+10.9905674167855,49.4691853623349,Karolinenstraße,24.233499692,Zuwegung Osttunnel,,,Sonstige
+10.9911881394056,49.4691045451413,Karolinenstraße,13.4220501699,Zuwegung Osttunnel,,,Sonstige
+10.9915295411335,49.4704463270234,Bahnhofplatz Ostseite,31.8876439658,Ärztehaus,Gebhardtstraße,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9714383494912,49.5106564063008,Fischerberg,279.980960584,Abzweig RegnitztalRadweg,Brücke,,gemeinsamer Rad- und Fußweg (2 Richtungen)
+10.9882654208729,49.4718129443748,Maxstraße,74.6269791885,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9777499734186,49.5257628383207,Stadelner Hauptstraße,395.305196213,Mannhofer Str.,Annastr.,,"Gehweg, Radfahrer frei"
+10.9948485750441,49.4910472182831,Kronacher Straße südl. Seeackerstraße,184.405540887,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.002269652407,49.4660961821065,Kaiserstraße,86.3867826501,Leyher Straße,Karolinenstraße,,Einbahnstraße frei
+10.9898370061406,49.4568724985424,Fronmüllerstraße,149.557939484,Schwabacher Straße,Jakob-Wassermann-Straße,,"Gehweg, Radfahrer frei"
+10.9511482666497,49.4674239253589,Heilstättenstraße,437.143358061,Paul-Keller-Straße,Graf-Stauffenberg-Brücke,,Mitbenutzung Busspur
+10.9703600036389,49.5263561649775,,70.6104635307,,,,"Gehweg, Radfahrer frei"
+10.9765358657052,49.5235241677763,Stadelner Hauptstraße,223.045513406,Stadelner Hauptstraße 171,Mannhofer Kreuzung,,"Gehweg, Radfahrer frei"
+10.9754102111041,49.5159125650004,Stadelner Hauptstraße,150.57805285,Ausfahrt Wiesengrund (Stadeln),Mannhof,,"Gehweg, Radfahrer frei"
+10.9759577724436,49.5195985637507,Stadelner Hauptstraße,682.027502102,Dr. David-Morgenstern-Str.,Stadelner Hauptstraße 171,,"Gehweg, Radfahrer frei"
+10.9751712695162,49.5144085773852,,134.970219506,,,,"Gehweg, Radfahrer frei"
+10.9748545288667,49.5131760587473,Stadelner Hauptstraße,136.758736288,Karl-Hauptmannl-Straße,Fischerberg,,Schutzstreifen
+10.9749409859372,49.513076637869,Stadelner Hauptstraße,155.8600171,Fischerberg,Karl-Hauptmannl-Straße,,Schutzstreifen
+10.9953892558681,49.4865400688327,Erlanger Straße Westseite,483.450932474,Spitzwiesenstraße,Mauerstraße,,Radfahrstreifen
+11.000256330252,49.4665100011896,,84.9065060849,,,,"Gehweg, Radfahrer frei"
+11.0002515844688,49.4583800404236,,426.16962257,,,,getrennter Rad- und Fußweg
+10.9724880438577,49.4734299731281,,30.7250667189,,,,"Gehweg, Radfahrer frei"
+10.9644092145928,49.5138688144323,Vacher Zennbrücke,303.797127129,Flexdorfer Straße,Stadelner Straße,,Radfahrstreifen
+10.9643299008863,49.5135494092864,Vacher Zennbrücke,296.86584614,Stadelner Straße,Flexdorfer Straße,,Radfahrstreifen
+10.9643607592985,49.5124012431435,,99.4810394295,,,,Schutzstreifen
+10.9959899163693,49.5152116052639,,196.277871404,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0003676509161,49.521044380588,Herboldshof,517.71224884,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+11.0027325595782,49.5220885878702,Herboldshof,197.94021949,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.9941647499505,49.5218389807708,Herboldshof,401.333541449,,,,Verbindung ohne eigene RVanlage / Lückenschluss
+10.984618749049,49.4726759732307,Hirschenberg,46.9807946661,Theresienstraße,Maxstraße,,Radfahrstreifen in Gegenrichtung
