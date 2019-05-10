@@ -1,0 +1,19 @@
+{
+  "name": "fuerth-maengelmelder",
+  "version": "0.0.1",
+  "description": "Visualisierung von Daten des Fürther Mändelmelders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alexander Wunschik <dev@wunschik.net>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "fs-extra": "^7.0.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
