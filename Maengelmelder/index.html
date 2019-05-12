@@ -7,6 +7,7 @@
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+	<script src="https://unpkg.com/chartjs-plugin-colorschemes@0.3.0/dist/chartjs-plugin-colorschemes.min.js"></script>
 
 	<style>
 		canvas {
@@ -15,7 +16,7 @@
 			-ms-user-select: none;
 		}
 		.chart-container {
-			width: 50%;
+			width: 100%;
 			max-width: 600px;
 		}
 
@@ -23,7 +24,12 @@
 </head>
 
 <body>
+	<div class="statistics-container">
+		<dl id="statistics">
+		</dl>
+	</div>
 	<div class="chart-container">
+		<canvas id="reporttypes"></canvas>
 		<canvas id="punchchart"></canvas>
 		<canvas id="monthlyusage"></canvas>
 	</div>
