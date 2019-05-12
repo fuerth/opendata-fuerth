@@ -1,14 +1,38 @@
-var color = Chart.helpers.color;
+const COLOR_SCHEME = 'tableau.Tableau20';
 
 function getMonthLabels() {
 	return (new Array(12).fill(0)).map((m, index) => moment().month(index).format('MMM'));
 }
 
+function showStatistics(data) {
+	const $dl = document.getElementById('statistics');
+	
+	data.forEach(d => {
+		var $dt = document.createElement('dt');
+		$dt.appendChild(document.createTextNode(d.description));
+	
+		var $dd = document.createElement('dd');
+		$dd.appendChild(document.createTextNode(d.value));
+		
+		$dl.appendChild($dt);
+		$dl.appendChild($dd);
+	});
+}
+
 function drawPunchChart(chartData) {
+
+	const MAX_RADIUS = 15;
+
+	var data = chartData.data.map(d => {
+		d.r = d.value * MAX_RADIUS;
+		delete d.value;
+		return d;
+	})
+
 	var scatterChartData = {
 		datasets: [{
 			label: 'Anzahl an Meldungen nach Wochentag und Uhrzeit',
-			data: chartData.data
+			data: data
 		}]
 	};
 
@@ -16,6 +40,11 @@ function drawPunchChart(chartData) {
 		type: 'bubble',
 		data: scatterChartData,
 		options: {
+			plugins: {
+				colorschemes: {
+					scheme: COLOR_SCHEME
+				}
+			},
 			legend: { 
 				display: false 
 			},
@@ -55,6 +84,11 @@ function drawMonthlyUsageChart(chartData) {
 			}]
 		},
 		options: {
+			plugins: {
+				colorschemes: {
+					scheme: COLOR_SCHEME
+				}
+			},
 			legend: { 
 				display: false 
 			},
@@ -73,8 +107,40 @@ function drawMonthlyUsageChart(chartData) {
 	});
 }
 
+function drawReportTypesChart(chartData) {
+	const types = chartData.data
+	new Chart(document.getElementById("reporttypes"), {
+		type: 'pie',
+		data: {
+			labels: types.map(d => d.type),
+			datasets: [{
+				data:  types.map(d => d.reports)
+			}]
+		},
+		options: {
+			plugins: {
+				colorschemes: {
+					scheme: COLOR_SCHEME
+				}
+			},
+			title: {
+				display: true,
+				text: `Report Typen (${moment(chartData.minDate).format('LL')} - ${moment(chartData.maxDate).format('LL')}`
+			},
+			legend: { 
+				display: false 
+			}
+		}
+	});
+}
+
 window.onload = function() {
-	moment.locale(window.navigator.userLanguage || window.navigator.language);
+	//moment.locale(window.navigator.userLanguage || window.navigator.language);
+	moment.locale('de');
+
+	fetch("./statistics.json")
+		.then(response => response.json())
+		.then(json => showStatistics(json));
 
 	fetch("./punchchart.json")
 		.then(response => response.json())
@@ -83,4 +149,8 @@ window.onload = function() {
 	fetch("./monthlyusage.json")
 		.then(response => response.json())
 		.then(json => drawMonthlyUsageChart(json));
+
+	fetch("./reporttypes.json")
+		.then(response => response.json())
+		.then(json => drawReportTypesChart(json));
 };
