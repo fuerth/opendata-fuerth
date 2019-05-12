@@ -1,32 +1,28 @@
 var color = Chart.helpers.color;
-const RADIUS_FACTOR = 0.75;
 
-function generateData(data) {
-	var chartData = [];
-	data.forEach((hours, day) => {
-		hours.forEach((r, hour) => {
-			chartData.push({ 
-				x: hour, 
-				y: day+1,
-				r: r * RADIUS_FACTOR
-			});
-		})
-	})
-	return chartData;
+function getMonthLabels() {
+	return (new Array(12).fill(0)).map((m, index) => moment().month(index).format('MMM'));
 }
 
-function drawChart(data) {
+function drawPunchChart(chartData) {
 	var scatterChartData = {
 		datasets: [{
 			label: 'Anzahl an Meldungen nach Wochentag und Uhrzeit',
-			data: generateData(data)
+			data: chartData.data
 		}]
 	};
 
-	window.punchchart = new Chart(document.getElementById("punchchart"),{
-		"type":"bubble",
-		"data": scatterChartData,
+	new Chart(document.getElementById("punchchart"), {
+		type: 'bubble',
+		data: scatterChartData,
 		options: {
+			legend: { 
+				display: false 
+			},
+			title: {
+				display: true,
+				text: `Usage (${moment(chartData.minDate).format('LL')} - ${moment(chartData.maxDate).format('LL')})` 
+			},
 			scales: {
 				xAxes: [{
 					ticks: {
@@ -49,8 +45,42 @@ function drawChart(data) {
 	});
 }
 
+function drawMonthlyUsageChart(chartData) {
+	new Chart(document.getElementById("monthlyusage"), {
+		type: 'bar',
+		data: {
+			labels: getMonthLabels(),
+			datasets: [{
+				data: chartData.data
+			}]
+		},
+		options: {
+			legend: { 
+				display: false 
+			},
+			title: {
+				display: true,
+				text: `Usage (${moment(chartData.minDate).format('LL')} - ${moment(chartData.maxDate).format('LL')})` 
+			},
+			xAxes: [{
+				ticks: {
+					callback: function(value, index, values) {
+						return moment().month(value).format('mmm');
+					}
+				}
+			}]
+		}
+	});
+}
+
 window.onload = function() {
+	moment.locale(window.navigator.userLanguage || window.navigator.language);
+
 	fetch("./punchchart.json")
 		.then(response => response.json())
-		.then(json => drawChart(json));
+		.then(json => drawPunchChart(json));
+
+	fetch("./monthlyusage.json")
+		.then(response => response.json())
+		.then(json => drawMonthlyUsageChart(json));
 };
