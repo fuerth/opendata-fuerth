@@ -1,5 +1,9 @@
 const COLOR_SCHEME = 'tableau.HueCircle19';
 
+const SCREEN_WIDTH = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
 function getMonthLabels() {
 	return (new Array(12).fill(0)).map((m, index) => moment().month(index).format('MMM'));
 }
@@ -21,7 +25,7 @@ function showStatistics(data) {
 
 function drawPunchChart(chartData) {
 
-	const MAX_RADIUS = 25;
+	const MAX_RADIUS = SCREEN_WIDTH/50;
 
 	var data = chartData.data.map(d => {
 		d.r = d.value * MAX_RADIUS;
