@@ -1,0 +1,1 @@
+https://wiki.openstreetmap.org/wiki/DE:F%C3%BCrth/RadkarteFuerth
