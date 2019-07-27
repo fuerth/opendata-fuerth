@@ -5,8 +5,14 @@ const moment = require('moment');
 
 const DATE_TIME_FORMAT = 'DD.MM.YYYY HH:mm:ss';
 
-const REPORTS_FILE = path.join(__dirname, "180124-190510_mangel.csv");
-const REPORTS_STATUS_FILE = path.join(__dirname, "180124-190510_mangel_protokoll.csv");
+// const REPORTS_FILE = path.join(__dirname, "180124-190510_mangel.csv");
+// const REPORTS_STATUS_FILE = path.join(__dirname, "180124-190510_mangel_protokoll.csv");
+
+//const REPORTS_FILE = path.join(__dirname, "180124-190711_mangel.csv");
+//const REPORTS_STATUS_FILE = path.join(__dirname, "180125-190711_mangel_protokoll.csv");
+
+const REPORTS_FILE = path.join(__dirname, "180124-190711_mangel_with_geo.csv");
+const REPORTS_STATUS_FILE = path.join(__dirname, "180125-190711_mangel_protokoll_with_geo.csv");
 
 /**
  * Load CSV file and return CSV
@@ -244,6 +250,35 @@ function extractReportTypeChartData(reports, reportTypes) {
 	};
 }
 
+/**
+ * TODO:
+ *
+ * @param {*} reports
+ * @param {*} reportTypes
+ */
+function extractGeoData(reports, reportTypes) {
+	//console.log(reports);
+	console.log(reportTypes);
+
+	geoData = [];
+
+	reportTypes.forEach(function(type, index) {
+		var data = reports.filter(function(report) {
+			return report.type === index;
+		}).map(function(report) {
+			return report.geo.split(',');
+		});
+		geoData.push({
+			type,
+			index,
+			data,
+			count: data.length
+		});
+	});
+	//console.log(geoData);
+	return geoData;
+}
+
 ( async () => {
 
 	var reports = await loadCSV(REPORTS_FILE);
@@ -270,5 +305,8 @@ function extractReportTypeChartData(reports, reportTypes) {
 
 	var reportTypesData = extractReportTypeChartData(reports, reportTypes);
 	await fs.outputJson(path.join(__dirname, "reporttypes.json"), reportTypesData);
+
+	var geoData = extractGeoData(reports, reportTypes);
+	await fs.outputJson(path.join(__dirname, "geodata.json"), geoData);
 
 })()

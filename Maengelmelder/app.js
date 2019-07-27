@@ -1,4 +1,4 @@
-const COLOR_SCHEME = 'tableau.Tableau20';
+const COLOR_SCHEME = 'tableau.HueCircle19';
 
 function getMonthLabels() {
 	return (new Array(12).fill(0)).map((m, index) => moment().month(index).format('MMM'));
@@ -21,7 +21,7 @@ function showStatistics(data) {
 
 function drawPunchChart(chartData) {
 
-	const MAX_RADIUS = 15;
+	const MAX_RADIUS = 25;
 
 	var data = chartData.data.map(d => {
 		d.r = d.value * MAX_RADIUS;
@@ -107,8 +107,8 @@ function drawMonthlyUsageChart(chartData) {
 	});
 }
 
-function drawReportTypesChart(chartData) {
-	const types = chartData.data
+function drawReportTypesChart(reporttypes) {
+	const types = reporttypes.data
 	new Chart(document.getElementById("reporttypes"), {
 		type: 'pie',
 		data: {
@@ -125,13 +125,18 @@ function drawReportTypesChart(chartData) {
 			},
 			title: {
 				display: true,
-				text: `Report Typen (${moment(chartData.minDate).format('LL')} - ${moment(chartData.maxDate).format('LL')}`
+				text: `Report Typen (${moment(reporttypes.minDate).format('LL')} - ${moment(reporttypes.maxDate).format('LL')})`
 			},
 			legend: { 
 				display: false 
 			}
 		}
 	});
+}
+
+function updateTimeframe(reporttypes) {
+	var elem = document.getElementById("timeframe")
+	elem.innerHTML = `Zeitraum: ${moment(reporttypes.minDate).format('LL')} - ${moment(reporttypes.maxDate).format('LL')}`;
 }
 
 window.onload = function() {
@@ -152,5 +157,8 @@ window.onload = function() {
 
 	fetch("./reporttypes.json")
 		.then(response => response.json())
-		.then(json => drawReportTypesChart(json));
+		.then(json => {
+			drawReportTypesChart(json)
+			updateTimeframe(json)
+		});
 };
