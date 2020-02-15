@@ -111,22 +111,7 @@ function drawAgeChart(chartData) {
 			//data: [ 2, 4, 6, 8, 9, 3 , 2, 0 ]
 			data
 		}
-	})
-
-	// const datasets = [{
-	// 	label: "CSU",
-	// 	backgroundColor: '#0000FF',
-	// 	data: [ 2, 4, 6, 8, 9, 3 , 2, 0 ]
-	// }, {
-	// 	label: "GRÜNE",
-	// 	backgroundColor: '#32CD32',
-	// 	data: [ 4, 5, 4, 6, 4, 6 , 7, 0 ]
-	// }, {
-	// 	label: "AfD",
-	// 	backgroundColor: '#964B00',
-	// 	data: [ 1, 2, 3, 3, 3, 2 , 1, 0 ]
-	// }]
-
+	});
 
 	new Chart(document.getElementById("age"), {
 		type: "bar",
@@ -157,7 +142,11 @@ window.onload = function() {
 			showWordCloud("forenames", json.forenames);
 			showWordCloud("surnames", json.surnames);
 		});
-	
+
+	fetch("./jobs.json")
+		.then(response => response.json())
+		.then(json => showWordCloud("jobs", json.jobs));
+
 	fetch("./birthyears.json")
 		.then(response => response.json())
 		.then(json => drawAgeChart(json));

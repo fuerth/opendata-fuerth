@@ -39,6 +39,8 @@ async function getAllByFielsname(field) {
 			.sort();
 		entries.push(...n);
 	}
+	entries = entries.map(e => e.split(',')).flat();
+	entries = entries.map(e => e.trim());
 	return entries;
 }
 
@@ -100,6 +102,11 @@ async function checkAllNames() {
 	await fs.writeJSON('names.json', {
 		forenames, 
 		surnames
+	});
+
+	const jobs = await getAllByFielsname('job');
+	await fs.writeJSON('jobs.json', {
+		jobs
 	});
 
 	const birthyears = await getBirthYearsByParty();
