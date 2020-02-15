@@ -42,6 +42,23 @@ async function getAllByFielsname(field) {
 	return entries;
 }
 
+async function getBirthYearsByParty() {
+	let entries = [];
+	for (let sheet of doc.sheetsByIndex) {
+		if (sheet == doc.sheetsByIndex[0]) continue;
+		const rows = await sheet.getRows();
+		n = rows
+			.map(r => r.birthyear)
+			.filter(f => f && f.length)
+			.sort();
+		entries.push({
+			party: sheet.title,
+			birthyears: n
+		});
+	}
+	return entries;
+}
+
 async function checkAllNames() {
 	let problems = [];
 	for (let sheet of doc.sheetsByIndex) {
@@ -84,5 +101,8 @@ async function checkAllNames() {
 		forenames, 
 		surnames
 	});
-	
+
+	const birthyears = await getBirthYearsByParty();
+	await fs.writeJSON('birthyears.json', birthyears);
+
 })();
