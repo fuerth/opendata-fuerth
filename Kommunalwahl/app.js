@@ -14,59 +14,67 @@ function getColorForParty(party) {
 }
 
 function showWordCloud(id, names) {
-  var cloud = d3.layout.cloud;
-  const width = document.getElementById(id).parentElement.clientWidth * 0.9;
+	var cloud = d3.layout.cloud;
+	const width = document.getElementById(id).parentElement.clientWidth;
+	const height = width > 500 ? width*0.5 : width;
 
-  var words = new Map();
-  names.forEach(name =>
-    words.set(name, words.get(name) ? words.get(name) + 1 : 1)
-  );
+	var words = new Map();
+	names.forEach(name =>
+		words.set(name, words.get(name) ? words.get(name) + 1 : 1)
+	);
 
-  var layout = cloud()
-    .size([width, width * 0.6])
-    .words(
-      Array.from(words.entries()).map(function(data) {
-        return { text: data[0], size: 20 * (data[1] * 0.7) };
-      })
-    )
-    .padding(1)
-    .rotate(function() {
-      return 0;
-    })
-    .font("Roboto")
-    .fontSize(function(d) {
-      return d.size;
-    })
-    .on("end", drawWords);
+	const maxLength = Math.max(...Array.from(words.keys()).map(s => s.length));
 
-  function drawWords(words) {
-    d3.select(`#${id}`)
-      .append("svg")
-      .attr("width", layout.size()[0])
-      .attr("height", layout.size()[1])
-      .append("g")
-      .attr(
-        "transform",
-        "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")"
-      )
-      .selectAll("text")
-      .data(words)
-      .enter()
-      .append("text")
-      .style("font-size", function(d) {
-        return d.size + "px";
-      })
-      .style("font-family", "Roboto")
-      .attr("text-anchor", "middle")
-      .attr("transform", function(d) {
-        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-      })
-      .text(function(d) {
-        return d.text;
-      });
-  }
+	function fillColor(d ,i) {
+		return `rgba(0, 0, 0, ${1.3-(d.text.length/maxLength)})`;
+	}
 
-  layout.start();
+	var layout = cloud()
+		.size([width, height])
+		.words(
+			Array.from(words.entries()).map(function(data) {
+				return { text: data[0], size: 8+(data[1]*6) };
+			})
+		)
+		.padding(1)
+		.rotate(function() {
+			return 0;
+		})
+		.font("Roboto")
+		.fontSize(function(d) {
+			return d.size;
+		})
+		.on("end", drawWords);
+
+	function drawWords(words) {
+		d3.select(`#${id}`)
+			.append("svg")
+			.attr("width", layout.size()[0])
+			.attr("height", layout.size()[1])
+			.append("g")
+			.attr(
+				"transform",
+				"translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")"
+			)
+			.selectAll("text")
+			.data(words)
+			.enter()
+			.append("text")
+			.style("font-size", function(d) {
+				return d.size + "px";
+			})
+			.style("font-family", "Roboto")
+			.style("fill", fillColor)
+			.attr("text-anchor", "middle")
+			.attr("transform", function(d) {
+				return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+			})
+			.text(function(d) {
+				return d.text;
+			});
+	}
+
+	layout.start();
 }
 
 function drawAgeChart(chartData) {
@@ -136,11 +144,11 @@ function drawGenderChart(chartData) {
 	const labels = chartData.map(p => p.party);
 	const datasets = [{
 		label: "Mann",
-		backgroundColor: 'blue',
+		backgroundColor: '#4B0082',
 		data: chartData.map(dataset => dataset.genders.m*100)
 	}, {
 		label: "Frau",
-		backgroundColor: 'red',
+		backgroundColor: '#BA55D3',
 		data: chartData.map(dataset => dataset.genders.w*100)
 	}];
 
