@@ -1,3 +1,4 @@
+const seatCount = 50; //TODO: this should be loaded
 
 function getColorForParty(party) {
 	switch (party.toUpperCase()) {
@@ -69,7 +70,6 @@ function showWordCloud(id, names) {
 }
 
 function drawAgeChart(chartData) {
-	
 	const labels = [
 		'<20',
 		'20-29',
@@ -132,9 +132,64 @@ function drawAgeChart(chartData) {
 	});
 }
 
+function drawGenderChart(chartData) {
+	const labels = chartData.map(p => p.party);
+	const datasets = [{
+		label: "Mann",
+		backgroundColor: 'blue',
+		data: chartData.map(dataset => dataset.genders.m*100)
+	}, {
+		label: "Frau",
+		backgroundColor: 'red',
+		data: chartData.map(dataset => dataset.genders.w*100)
+	}];
+
+	new Chart(document.getElementById("gender"), {
+		type: "bar",
+		data: {
+			labels,
+			datasets
+		},
+		options: {
+			scales: {
+				xAxes: [{
+					stacked: true,
+				}],
+				yAxes: [{
+					stacked: true
+				}]
+			},
+			annotation: {
+				annotations: [{
+					drawTime: "afterDatasetsDraw",
+					id: "hline",
+					type: "line",
+					mode: "horizontal",
+					scaleID: "y-axis-0",
+					value: 50,
+					borderColor: "gray",
+					borderWidth: 3
+				}]
+			}
+		}
+	});
+}
+
 window.onload = function() {
   //moment.locale(window.navigator.userLanguage || window.navigator.language);
   moment.locale("de");
+
+	fetch("./genders.json")
+		.then(response => response.json())
+		.then(json => drawGenderChart(json));
+
+	fetch("./birthyears.json")
+		.then(response => response.json())
+		.then(json => drawAgeChart(json));
+
+	fetch("./jobs.json")
+		.then(response => response.json())
+		.then(json => showWordCloud("jobs", json.jobs));
 
 	fetch("./names.json")
 		.then(response => response.json())
@@ -143,11 +198,4 @@ window.onload = function() {
 			showWordCloud("surnames", json.surnames);
 		});
 
-	fetch("./jobs.json")
-		.then(response => response.json())
-		.then(json => showWordCloud("jobs", json.jobs));
-
-	fetch("./birthyears.json")
-		.then(response => response.json())
-		.then(json => drawAgeChart(json));
 };

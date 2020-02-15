@@ -61,6 +61,37 @@ async function getBirthYearsByParty() {
 	return entries;
 }
 
+async function getGendersByParty() {
+	let entries = [];
+	for (let sheet of doc.sheetsByIndex) {
+		if (sheet == doc.sheetsByIndex[0]) continue;
+		const rows = await sheet.getRows();
+		const genders = rows
+			.map(r => r.gender)
+			.filter(f => f && f.length)
+			.map(g => g.toLowerCase())
+			.reduce((acc, gender) => {
+				acc[gender]++;
+				return acc;
+			}, { m: 0, w: 0 });
+		entries.push({
+			party: sheet.title,
+			count: rows.length,
+			genders
+		});
+	}
+
+	// gender entries to percentage
+	entries = entries.map(e => {
+		e.genders.m = (e.genders.m/e.count).toFixed(2);
+		e.genders.w = (e.genders.w/e.count).toFixed(2);
+		delete e.count;
+		return e;
+	});
+
+	return entries;
+}
+
 async function checkAllNames() {
 	let problems = [];
 	for (let sheet of doc.sheetsByIndex) {
@@ -77,7 +108,8 @@ async function checkAllNames() {
 				problems.push({
 					officialName,
 					name,
-					surname
+					surname,
+					party
 				});
 			}
 		}
@@ -111,5 +143,8 @@ async function checkAllNames() {
 
 	const birthyears = await getBirthYearsByParty();
 	await fs.writeJSON('birthyears.json', birthyears);
+
+	const genders = await getGendersByParty();
+	await fs.writeJSON('genders.json', genders);
 
 })();
