@@ -40,7 +40,7 @@ async function getAllByFielsname(field) {
 		entries.push(...n);
 	}
 	entries = entries.map(e => e.split(',')).flat();
-	entries = entries.map(e => e.trim());
+	entries = entries.map(e => e.trim()).sort();
 	return entries;
 }
 
