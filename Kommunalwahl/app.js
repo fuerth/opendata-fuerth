@@ -23,7 +23,7 @@ function showWordCloud(id, names) {
   );
 
   var layout = cloud()
-    .size([width, width * 0.75])
+    .size([width, width * 0.6])
     .words(
       Array.from(words.entries()).map(function(data) {
         return { text: data[0], size: 20 * (data[1] * 0.7) };
