@@ -203,7 +203,7 @@ window.onload = function() {
 		.then(response => response.json())
 		.then(json => {
 			showWordCloud("forenames", json.forenames);
-			showWordCloud("surnames", json.surnames);
+			//showWordCloud("surnames", json.surnames);
 		});
 
 };
