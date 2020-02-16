@@ -102,7 +102,8 @@ async function checkAllNames() {
 			const officialName = row.name;
 			const title = row.titel ? row.titel.trim() : '';
 			const forename = row.forename;
-			const surname = row.surname;
+			const nobel = row.nobel;
+			const surname = row.surname + (nobel ? ` ${nobel}` : '');
 			const name = `${title} ${surname} ${forename}`.trim();
 			if (officialName != name) {
 				problems.push({
