@@ -1,16 +1,18 @@
 const seatCount = 50; //TODO: this should be loaded
+var PARTIES = {};
 
-function getColorForParty(party) {
-	switch (party.toUpperCase()) {
-		case "CSU": return '#000000';
-		case "GRÜNE": return '#1fa15d';
-		case "FREIE WÄHLER": return '#FF8C00';
-		case "AFD": return '#009fe1';
-		case "SPD": return '#A20067';
-		case "FDP": return '#FFED00';
-		case "DIE LINKE": return '#E3000F';
-		default: return '#CCC';
+function getColorForParty(name) {
+	party = PARTIES[name];
+	if (party && party.color) {
+		return party.color;
 	}
+	console.debug(PARTIES);
+	console.warn(`party not found "${name}"`);
+	return '#CCC';
+}
+
+function setParties(parties) {
+	PARTIES = parties;
 }
 
 function showWordCloud(id, names) {
@@ -187,7 +189,8 @@ window.onload = function() {
   //moment.locale(window.navigator.userLanguage || window.navigator.language);
   moment.locale("de");
 
-	fetch("./genders.json")
+	function loadData() {
+		fetch("./genders.json")
 		.then(response => response.json())
 		.then(json => drawGenderChart(json));
 
@@ -205,5 +208,12 @@ window.onload = function() {
 			showWordCloud("forenames", json.forenames);
 			//showWordCloud("surnames", json.surnames);
 		});
+	}
 
+	fetch("./parties.json")
+		.then(response => response.json())
+		.then(json => {
+			setParties(json);
+			loadData();
+		});
 };

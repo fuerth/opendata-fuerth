@@ -28,6 +28,55 @@ async function loadSheet() {
 	await doc.loadInfo();
 }
 
+async function checkAllNames() {
+	let problems = [];
+	for (let sheet of doc.sheetsByIndex) {
+		const rows = await sheet.getRows();
+		if (sheet == doc.sheetsByIndex[0]) continue;
+		const party = sheet.title;
+		for (let row of rows) {
+			const officialName = row.name;
+			const title = row.titel ? row.titel.trim() : '';
+			const forename = row.forename;
+			const nobel = row.nobel;
+			const surname = row.surname + (nobel ? ` ${nobel}` : '');
+			const name = `${title} ${surname} ${forename}`.trim();
+			if (officialName != name) {
+				problems.push({
+					officialName,
+					name,
+					surname,
+					party
+				});
+			}
+		}
+	}
+
+	if (problems.length) {
+		problems.forEach(p => {
+			console.warn(`"${p.officialName}" != "${p.name} (${p.party})"`);
+		});
+	}
+
+	return !!(problems.length);
+}
+
+async function getPartyInfos() {
+	let info = {}
+	const overview = doc.sheetsByIndex[0];
+	const rows = await overview.getRows();
+	for (let row of rows) {
+		party = row.key;
+		info[party] = {
+			number: parseInt(row.number),
+			name: row.name,
+			color: row.color,
+			logo: row.logo
+		}
+	}
+	return info;
+}
+
 async function getAllByFielsname(field) {
 	let entries = [];
 	for (let sheet of doc.sheetsByIndex) {
@@ -92,60 +141,32 @@ async function getGendersByParty() {
 	return entries;
 }
 
-async function checkAllNames() {
-	let problems = [];
-	for (let sheet of doc.sheetsByIndex) {
-		const rows = await sheet.getRows();
-		if (sheet == doc.sheetsByIndex[0]) continue;
-		const party = sheet.title;
-		for (let row of rows) {
-			const officialName = row.name;
-			const title = row.titel ? row.titel.trim() : '';
-			const forename = row.forename;
-			const nobel = row.nobel;
-			const surname = row.surname + (nobel ? ` ${nobel}` : '');
-			const name = `${title} ${surname} ${forename}`.trim();
-			if (officialName != name) {
-				problems.push({
-					officialName,
-					name,
-					surname,
-					party
-				});
-			}
-		}
-	}
 
-	if (problems.length) {
-		problems.forEach(p => {
-			console.warn(`"${p.officialName}" != "${p.name} (${p.party})"`);
-		});
-	}
-
-	return !!(problems.length);
-}
 
 
 (async () => {
 	await loadSheet();
-	await checkAllNames();
+	// await checkAllNames();
+
+	const parties = await getPartyInfos();
+	await fs.writeJSON('parties.json', parties);
 	
-	const forenames = await getAllByFielsname('forename');
-	const surnames = await getAllByFielsname('surname');
-	await fs.writeJSON('names.json', {
-		forenames, 
-		surnames
-	});
+	// const forenames = await getAllByFielsname('forename');
+	// const surnames = await getAllByFielsname('surname');
+	// await fs.writeJSON('names.json', {
+	// 	forenames, 
+	// 	surnames
+	// });
 
-	const jobs = await getAllByFielsname('job');
-	await fs.writeJSON('jobs.json', {
-		jobs
-	});
+	// const jobs = await getAllByFielsname('job');
+	// await fs.writeJSON('jobs.json', {
+	// 	jobs
+	// });
 
-	const birthyears = await getBirthYearsByParty();
-	await fs.writeJSON('birthyears.json', birthyears);
+	// const birthyears = await getBirthYearsByParty();
+	// await fs.writeJSON('birthyears.json', birthyears);
 
-	const genders = await getGendersByParty();
-	await fs.writeJSON('genders.json', genders);
+	// const genders = await getGendersByParty();
+	// await fs.writeJSON('genders.json', genders);
 
 })();
