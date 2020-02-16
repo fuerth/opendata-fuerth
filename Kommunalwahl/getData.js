@@ -146,27 +146,27 @@ async function getGendersByParty() {
 
 (async () => {
 	await loadSheet();
-	// await checkAllNames();
+	await checkAllNames();
 
 	const parties = await getPartyInfos();
 	await fs.writeJSON('parties.json', parties);
 	
-	// const forenames = await getAllByFielsname('forename');
-	// const surnames = await getAllByFielsname('surname');
-	// await fs.writeJSON('names.json', {
-	// 	forenames, 
-	// 	surnames
-	// });
+	const forenames = await getAllByFielsname('forename');
+	const surnames = await getAllByFielsname('surname');
+	await fs.writeJSON('names.json', {
+		forenames, 
+		surnames
+	});
 
-	// const jobs = await getAllByFielsname('job');
-	// await fs.writeJSON('jobs.json', {
-	// 	jobs
-	// });
+	const jobs = await getAllByFielsname('job');
+	await fs.writeJSON('jobs.json', {
+		jobs
+	});
 
-	// const birthyears = await getBirthYearsByParty();
-	// await fs.writeJSON('birthyears.json', birthyears);
+	const birthyears = await getBirthYearsByParty();
+	await fs.writeJSON('birthyears.json', birthyears);
 
-	// const genders = await getGendersByParty();
-	// await fs.writeJSON('genders.json', genders);
+	const genders = await getGendersByParty();
+	await fs.writeJSON('genders.json', genders);
 
 })();
