@@ -17,7 +17,7 @@ function setParties(parties) {
 
 function showWordCloud(id, names) {
 	var cloud = d3.layout.cloud;
-	const width = document.getElementById(id).parentElement.clientWidth;
+	const width = document.getElementById(id).parentElement.clientWidth * 0.9;
 	const height = width > 500 ? width*0.5 : width;
 
 	var words = new Map();
@@ -88,7 +88,7 @@ function drawAgeChart(chartData) {
 		'50-59',
 		'60-69',
 		'70-79',
-		'>80',
+		'80+',
 	];
 
 	const currentYear = (new Date()).getFullYear();
@@ -118,7 +118,6 @@ function drawAgeChart(chartData) {
 		return {
 			label: dataset.party,
 			backgroundColor: getColorForParty(dataset.party),
-			//data: [ 2, 4, 6, 8, 9, 3 , 2, 0 ]
 			data
 		}
 	});
@@ -130,6 +129,7 @@ function drawAgeChart(chartData) {
 			datasets
 		},
 		options: {
+			aspectRatio: (window.screen.width > 500 ? 2 : 1),
 			scales: {
 				xAxes: [{
 					stacked: true,
@@ -161,6 +161,7 @@ function drawGenderChart(chartData) {
 			datasets
 		},
 		options: {
+			aspectRatio: (window.screen.width > 500 ? 2 : 1),
 			scales: {
 				xAxes: [{
 					stacked: true,
