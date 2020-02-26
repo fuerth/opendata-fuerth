@@ -1,0 +1,129 @@
+
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Mängelmelder Fürth</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+	<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+	<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+	<script src="//unpkg.com/moment@2.24.0/min/moment.min.js"></script>
+	<script src="//unpkg.com/chart.js@2.8.0/dist/Chart.min.js"></script>
+	<script src="//unpkg.com/chartjs-plugin-annotation@0.5.7/chartjs-plugin-annotation.js"></script>
+	<script src="//unpkg.com/chartjs-plugin-colorschemes@0.3.0/dist/chartjs-plugin-colorschemes.min.js"></script>
+	
+	<script src="//unpkg.com/d3@5.15.0/dist/d3.min.js"></script>
+	<script src="//unpkg.com/d3-cloud@1.2.5/build/d3.layout.cloud.js"></script>
+
+	<style>
+		@media screen and (min-width: 800px) {
+			body {
+				padding: 3em ;
+			}
+			h2 {
+				margin-top: 2em;
+			}
+			footer {
+				margin-top: 5em;
+			}
+		}
+		canvas {
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+		h2 .subtitle {
+			font-size: 42%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Kommunalwahl</h1>
+		<blockquote id="timeframe">Kreisfreie Stadt Fürth am 15.03.2020</blockquote>
+	</div>
+
+	<div class="container">
+		<h2>Daten zur Wahl</h2>
+		<ul>
+			<li><a href="https://www.fuerth.de/Home/fuerther-rathaus/wahlen/kommunalwahl-2020.aspx">Infos zur Kommunalwahl 2020</a></li>
+			<li><a href="https://docs.google.com/spreadsheets/d/1XXZVVtrJVJbPiVGLCeNjvhJkF3DmGKDuWyUd6u0SiTs">Aufbereitete Rohdaten (Google Docs)</a></li>
+		</ul>
+	</div>
+
+	<div class="container chart age">
+		<h2>
+			Altersverteilung
+			<div class="subtitle">Angaben beziehen sich auf das Geburtsjahr nicht das Alter beim Zeitpunkt der Wahl.</div>
+		</h2>
+		<canvas id="age"></canvas>
+	</div>
+
+	<div class="container wordcloud jobs">
+		<h2>
+			Berufe aller Kandidaten
+			<div class="subtitle">Je größer ein Beruf ist desto häufiger kommt er auf einer der Listen vor.</div>
+		</h2>
+		<div id="jobs">
+			<span class="loading"></span>
+		</div>
+	</div>
+
+	<div class="container chart gender">
+		<h2>
+			Geschlechterverteilung
+			<div class="subtitle">Die KandidatInnen haben keine Angaben zu Ihrem Geschlecht gemacht.<br>
+				Es wurde ein binäres Geschlecht an Hand von Vornamen und Fotos angenommen.</div>
+		</h2>
+		<canvas id="gender"></canvas>
+	</div>
+
+	<div class="container wordcloud forenames">
+		<h2>
+			Vornamen aller Kandidaten
+			<div class="subtitle">Je größer ein Name ist desto häufiger kommt er auf einer der Listen vor.</div>
+		</h2>
+		<div id="forenames">
+			<span class="loading"></span>
+		</div>
+	</div>
+
+	<!-- div class="container wordcloud surnames">
+		<h2>
+			Nachnamen aller Kandidaten<br>
+			<div class="subtitle">Je größer ein Name ist desto häufiger kommt er auf einer der Listen vor.</div>
+		</h2>
+		<div id="surnames">
+			
+			<span class="loading"></span>
+		</div>
+	</div -->
+
+
+	<div style="position:absolute;right:0;top:0;">
+		<a href="https://github.com/mojoaxel/opendata-fuerth">
+			<img width="149" height="149" src="//github.blog/wp-content/uploads/2008/12/forkme_right_gray_6d6d6d.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
+		</a>
+	</div>
+
+	<footer class="footer">
+		<section class="container">
+			<p>
+				<em>Impressum</em>: <a href="//www.fullstax.de">fullstax Gmbh & Co. KG</a> | Weiherstr. 13 | 90762 Fürth | fuerthio@fullstax.de <br/>
+				Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a>.<br>
+				Alle Daten sowie alle Charts können mit der Quellenangabe "fuerth.io" frei verwendet werden.
+			</p>
+		</section>
+	</footer>
+
+	<script src="./app.js"></script>
+</body>
+
+</html>
