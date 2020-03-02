@@ -6,7 +6,6 @@ function getColorForParty(name) {
 	if (party && party.color) {
 		return party.color;
 	}
-	console.debug(PARTIES);
 	console.warn(`party not found "${name}"`);
 	return '#CCC';
 }
