@@ -14,6 +14,7 @@
     "utf8": "^3.0.0"
   },
   "devDependencies": {
+    "fs-extra": "^8.1.0",
     "shapefile": "^0.6.6"
   }
 }
