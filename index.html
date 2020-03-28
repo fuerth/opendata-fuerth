@@ -3,7 +3,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>☘️ fuerth.io</title>
+	<title>fuerth.io</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#009580">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
 	<meta name="format-detection" content="telephone=no">
@@ -13,15 +21,38 @@
 	<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
 
 	<style>
+			body {
+				color: #414042;
+			}
+			a {
+				color: #009580;
+			}
+			header {
+				position: relative;
+				height: 300px;
+				width: 100%;
+				background-image: url(./Logo/fuerth-io-logo.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+			}
+			header > .title {
+				display: none;
+			}
+			header > .subtitle {
+				display: block;
+				font-weight: bold;
+				position: absolute;
+				bottom: 0px;
+				left: 0;
+			}
 		@media screen and (min-width: 800px) {
 			body {
 				margin: 3em 0;
 			}
-			h1:before {
-				content: '☘';
-				color: green;
-				margin-right: 0.2em;
-				margin-left: -1.2em;
+			header > .subtitle {
+				position: absolute;
+				bottom: -32px;
+				left: 165px;
 			}
 			h2 {
 				margin-top: 2em;
@@ -38,10 +69,12 @@
 </head>
 <body>
 	<div class="container">
-		<h1>OpenData Fürth</h1>
-		<p>
-			Inoffizielles <a href="https://de.wikipedia.org/wiki/Open_Data" target="_blank">OpenData</a> Portal der <a href="https://www.fuerth.de" target="_blank">Stadt Fürth in Bayern</a>.
-		</p>
+		<header>
+			<h1 class="title">fuerth.io</h1>
+			<p class="subtitle">
+				Inoffizielles <a href="https://de.wikipedia.org/wiki/Open_Data" target="_blank">OpenData</a> Portal der <a href="https://www.fuerth.de" target="_blank">Stadt Fürth in Bayern</a>.
+			</p>
+		</header>
 		<nav>
 			<h2>Karten und andere Visualisierungen</h2>
 			<ul>
