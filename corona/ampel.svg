@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4208"
+   height="140.66"
+   width="307.84"
+   version="1.0"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ampel.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2501"
+     inkscape:window-height="1416"
+     id="namedview4309"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.76663203"
+     inkscape:cx="153.91997"
+     inkscape:cy="70.329996"
+     inkscape:window-x="1739"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4208" />
+  <metadata
+     id="metadata4224">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4222" />
+  <rect
+     x="-1.3620211e-13"
+     y="-307.84"
+     width="140.66"
+     height="307.84"
+     ry="45.744999"
+     id="rect4212"
+     transform="matrix(0,1,-1,0,0,0)" />
+  <circle
+     cy="-61.502007"
+     cx="70.383972"
+     r="43.5"
+     id="green"
+     style="fill:#00ff00"
+     transform="matrix(0,1,-1,0,0,0)" />
+  <circle
+     cy="-153.922"
+     cx="70.383972"
+     r="43.5"
+     id="yellow"
+     style="fill:#ffff00"
+     transform="matrix(0,1,-1,0,0,0)" />
+  <circle
+     cy="-246.34198"
+     cx="70.383972"
+     r="43.5"
+     id="red"
+     style="fill:#ff0000"
+     transform="matrix(0,1,-1,0,0,0)" />
+</svg>

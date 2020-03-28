@@ -1,0 +1,212 @@
+
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Corona-Daten Fürth</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+	<link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+	<link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+	<script src="//unpkg.com/moment@2.24.0/min/moment.min.js"></script>
+	<script src="//unpkg.com/chart.js@2.8.0/dist/Chart.min.js"></script>
+	<script src="//unpkg.com/chartjs-plugin-annotation@0.5.7/chartjs-plugin-annotation.js"></script>
+	<script src="//unpkg.com/chartjs-plugin-colorschemes@0.3.0/dist/chartjs-plugin-colorschemes.min.js"></script>
+	
+	<script src="//unpkg.com/d3@5.15.0/dist/d3.min.js"></script>
+	<script src="//unpkg.com/d3-cloud@1.2.5/build/d3.layout.cloud.js"></script>
+
+	<style>
+		@media screen and (min-width: 800px) {
+			body {
+				padding: 3em ;
+			}
+			h2 {
+				margin-top: 2em;
+			}
+			footer {
+				margin-top: 5em;
+			}
+		}
+		canvas {
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+		h2 .subtitle {
+			font-size: 42%;
+		}
+		.infoboxes {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		.infobox {
+			flex-grow: 1;
+			display: block;
+			border: 1px solid lightgray;
+			border-radius: 0.5em;
+			padding: 0.5em;
+			margin: 1em;
+			min-width: 15em;
+		}
+		.infobox > dd {
+			margin: 0;
+			text-align: center;
+			font-size: xx-large;
+			font-weight: bold;
+		}
+		img.ampel {
+			height: 0.6em;
+		}
+		figcaption {
+			font-size: medium;
+		}
+		.bed_count {
+			line-height: 0.6em;
+			padding: 0.3em 0 0 0;
+			font-size: 1em;
+		}
+
+		ul.beds {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			flex-grow: 1;
+		}
+		ul.beds > li {
+			flex-grow: 1;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Corona-Daten - Stadt Fürth</h1>
+	</div>
+
+	<div class="container cases latest">
+		<h2>
+			Aktuelle Zahlen
+			<div class="subtitle last_updated"></div>
+		</h2>
+		<dl class="infoboxes">
+			<span class="infobox infected_total">
+				<dt>Anzahl der bekannt Infizierten</dt>
+				<dd id="infected_total">loading...</dd>
+			</span>
+			<span class="infobox deaths_total">
+				<dt>Anzahl der Toten</dt>
+				<dd id="deaths_total">loading...</dd>
+			</span>
+			<span class="infobox immune_total">
+				<dt>Anzahl bestätigt Immun</dt>
+				<dd id="immune_total">loading...</dd>
+			</span>
+			<span class="infobox quarantine_total">
+				<dt>Anzahl quarantenierter Personen</dt>
+				<dd id="quarantine_total">loading...</dd>
+			</span>
+		</dl>
+	</div>
+
+	<div class="container chart cases">
+		<h2>
+			Entwicklung der Fallzahlen
+			<div class="subtitle date_day"></div>
+		</h2>
+		<canvas id="cases_chart"></canvas>
+	</div>
+
+	<div class="container chart distribution">
+		<h2>
+			Verteilung nach Alter und Geschlecht
+			<div class="subtitle date_day"></div>
+		</h2>
+		<canvas id="distribution_chart"></canvas>
+	</div>
+
+	<!-- div class="container cases latest">
+		<h2>
+			Krankenhäuser
+			<div class="subtitle date_day"></div>
+		</h2>
+		<dl class="infoboxes">
+			<span class="infobox hospital">
+				<dt>Klinikum Fürth</dt>
+				<dd>
+					<ul class="beds">
+						<li>
+							<figure title="ICU low care: Intensivbetten ohne invasive Beatmungsmöglichkeit (Monitoring, Überwachung, ggf. nicht-invasive Beatmung möglich)">
+								<figcaption>Intensivbetten<a href="https://de.wikipedia.org/wiki/Intensivstation">¹</a></figcaption>
+								<div class="bed_count">30</div>
+								<img src="ampel.svg" class="ampel" alt="low"/>
+							</figure>
+						</li>
+						<li>
+							<figure title="ICU high care: Intensivbetten mit invasiver Beatmungsmöglichkeit">
+								<figcaption>Beatmungsbetten<a href="https://de.wikipedia.org/wiki/Beatmung">²</a></figcaption>
+								<div class="bed_count">30</div>
+								<img src="ampel.svg" class="ampel" alt="high"/>
+							</figure>
+						</li>
+						<li>
+							<figure title="Zusätzlich ECMO: extrakorporale Membranoxygenierung">
+								<figcaption>ECMO<a href="https://de.wikipedia.org/wiki/Extrakorporale_Membranoxygenierung">³</a></figcaption>
+								<div class="bed_count">30</div>
+								<img src="ampel.svg" class="ampel" alt="high"/>
+							</figure>
+						</li>
+					</ul>
+				</dd>
+			</span>
+		</dl>
+	</div -->
+
+	<div class="container">
+		<h2>Allgemeine Informationen</h2>
+		<ul>
+			<li><a href="https://www.fuerth.de/Home/Leben-in-Fuerth/coronavirus.aspx">Infos zum Corona-Virus der Stadt Fürth</a></li>
+			<li><a href="https://corona.rki.de/">Daten-Dashboard des Robert Koch Institutes</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<h2>Datenquellen</h2>
+		<ul>
+			<li><a href="https://npgeo-corona-npgeo-de.hub.arcgis.com/">NPGEO Corona Hub 2020</a></li>
+			<li><a href="https://docs.google.com/spreadsheets/d/1wg-s4_Lz2Stil6spQEYFdZaBEp8nWW26gVyfHqvcl8s/htmlview#">RiskLayer Datensammlung</a></li>
+			<li><a href="https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV1QAktuell.html">Statistisches Bundesamt (Destatis), Feb 2020</a></li>
+
+		</ul>
+	</div>
+
+	<footer class="footer">
+		<section class="container">
+			<p>
+				<em>Impressum</em>: <a href="//www.fullstax.de">fullstax Gmbh & Co. KG</a> | Weiherstr. 13 | 90762 Fürth | fuerthio@fullstax.de <br/>
+				Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a>.<br>
+				Alle Daten sowie alle Charts können mit der Quellenangabe "fuerth.io" frei verwendet werden.
+			</p>
+		</section>
+	</footer>
+
+	<div style="position:absolute;right:0;top:0;">
+		<a href="https://github.com/mojoaxel/opendata-fuerth">
+			<img width="149" height="149" src="//github.blog/wp-content/uploads/2008/12/forkme_right_gray_6d6d6d.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
+		</a>
+	</div>
+
+	<script src="./app.js"></script>
+</body>
+
+</html>
