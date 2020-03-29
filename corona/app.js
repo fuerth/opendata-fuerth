@@ -34,7 +34,7 @@ function updateCaseData(dataSets) {
 	}
 
 	Array.prototype.forEach.call(document.getElementsByClassName('last_updated'), element => {
-		element.innerText = `Letztes Update am ${new Date(data.last_updated).toLocaleString()}`;
+		element.innerText = `Letzter Datensatz: ${new Date(data.date_day).toLocaleDateString()}, aktualsiert am ${new Date(data.last_updated).toLocaleString()}`;
 	});
 
 	document.getElementById('infected_total').innerText = data.infected_total;
@@ -66,7 +66,7 @@ function updateCasesCahrt(data) {
 		datasets.push({
 			label: "infiziert",
 			stack: 'Stack 0',
-			backgroundColor: '#FF4500',
+			backgroundColor: '#FFA500',
 			data: data.map(d => d.infected_total)
 		});
 	}
