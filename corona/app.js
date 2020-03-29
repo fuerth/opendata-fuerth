@@ -114,43 +114,53 @@ function updateCasesCahrt(data) {
 }
 
 function updateDistributionCahrt(data) {
+	const GROUPS = ["0-4", "5-14", "15-34", "35-59", "60-79", "80+"];
 	data = data.sort((b, a) => b.age_group - a.age_group);
-	const labels = [...(new Set(data.map(p => p.age_group)))];
+	const labels = GROUPS;
 	
-	const data_m = data.filter(d => d.gender === 'm');
-	const data_w = data.filter(d => d.gender === 'w');
-	const data_unbekannt = data.filter(d => d.gender === 'unbekannt');
+	// const data_m = data.filter(d => d.gender === 'm');
+	// const data_w = data.filter(d => d.gender === 'w');
+	// const data_unbekannt = data.filter(d => d.gender === 'unbekannt');
+
+	function pluckFromData(data, gender, field) {
+		return GROUPS.map(group => {
+			const entry = data.find(d => {
+				return d.gender === gender && d.age_group === group
+			})
+			return entry? entry[field] : 0;
+		});
+	}
 
 	const sets = [{
 		label: "♂️ infiziert",
 		stack: 'Stack 0',
 		backgroundColor: '#33ccff',
-		data: data_m.map(d => d.infected_total)
+		data: pluckFromData(data, 'm', 'infected_total')
 	}, {
 		label: "♂️ gestorben",
 		stack: 'Stack 0',
 		backgroundColor: '#004b66',
-		data: data_m.map(d => d.deaths_total)
+		data: pluckFromData(data, 'm', 'deaths_total')
 	}, {
 		label: "♀️ infiziert",
 		stack: 'Stack 1',
 		backgroundColor: '#ff00ff',
-		data: data_w.map(d => d.infected_total)
+		data: pluckFromData(data, 'w', 'infected_total')
 	}, {
 		label: "♀️ gestorben",
 		stack: 'Stack 1',
 		backgroundColor: '#660066',
-		data: data_w.map(d => d.deaths_total)
+		data: pluckFromData(data, 'w', 'deaths_total')
 	}, {
 		label: "? infiziert",
 		stack: 'Stack 2',
 		backgroundColor: '#888888',
-		data: data_unbekannt.map(d => d.infected_total)
+		data: pluckFromData(data, 'unbekannt', 'infected_total')
 	}, {
 		label: "? gestorben",
 		stack: 'Stack 2',
 		backgroundColor: '#333333',
-		data: data_unbekannt.map(d => d.deaths_total)
+		data:pluckFromData(data, 'unbekannt', 'deaths_total')
 	}];
 
 	const datasets = sets.filter(s => Math.max(...s.data) > 0);
