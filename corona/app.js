@@ -1,8 +1,38 @@
 function setCounty(county) {
 	window.corona.county = county;
+	document.getElementById('district_name').innerText = county.name;
 }
 
-function updateCaseData(data) {
+function updateCaseData(dataSets) {
+	const data = dataSets[0];
+	if (dataSets.length > 1) {
+		const dataLastDay = dataSets[1];
+		const infected_new = data.infected_total - dataLastDay.infected_total;
+		const deaths_new = data.deaths_total - dataLastDay.deaths_total;
+		const immune_new = data.immune_total - dataLastDay.immune_total;
+		
+		if (infected_new && infected_new !== 0) {
+			document.getElementById('infected_new').innerHTML = 
+			infected_new <= 0 ? 
+				`<span class="green">-${infected_new}</span>` : 
+				`<span class="red">+${infected_new}</span>`;
+		}
+
+		if (deaths_new && deaths_new !== 0) {
+			document.getElementById('deaths_new').innerHTML = 
+			deaths_new <= 0 ? 
+				`<span class="green">-${deaths_new}</span>` : 
+				`<span class="red">+${deaths_new}</span>`;
+		}
+
+		if (immune_new && immune_new !== 0) {
+			document.getElementById('immune_new').innerHTML = 
+			immune_new <= 0 ? 
+				`<span class="green">-${immune_new}</span>` : 
+				`<span class="red">+${immune_new}</span>`;
+		}
+	}
+
 	Array.prototype.forEach.call(document.getElementsByClassName('last_updated'), element => {
 		element.innerText = `Letztes Update am ${new Date(data.last_updated).toLocaleString()}`;
 	});
@@ -35,6 +65,7 @@ function updateCasesCahrt(data) {
 	if (maxInfected) {
 		datasets.push({
 			label: "infiziert",
+			stack: 'Stack 0',
 			backgroundColor: '#ff9900',
 			data: data.map(d => d.infected_total)
 		});
@@ -44,10 +75,21 @@ function updateCasesCahrt(data) {
 	if (maxdeaths) {
 		datasets.push({
 			label: "gestorben",
+			stack: 'Stack 0',
 			backgroundColor: '#000000',
 			data: data.map(d => d.deaths_total)
 		});
 	}
+
+	// const maxImmune = data.reduce((a, d) => Math.max(a, d.immune_total), 0);
+	// if (maxImmune) {
+	// 	datasets.push({
+	// 		label: "immunisiert",
+	// 		//stack: 'Stack 0',
+	// 		backgroundColor: '#00FF00',
+	// 		data: data.map(d => d.immune_total)
+	// 	});
+	// }
 
 	new Chart(document.getElementById("cases_chart"), {
 		type: "bar",
@@ -121,16 +163,19 @@ window.onload = function() {
   //moment.locale(window.navigator.userLanguage || window.navigator.language);
   moment.locale("de");
 
-	const AGS = '09563';
+	const AGS = location.hash.replace('#','') || '09563';
 
 	function loadCases() {
-		fetch(`https://covid19-api-backend.herokuapp.com/api/v0.1/county/${AGS}/cases/latest/`)
-			.then(response => response.json())
-			.then(json => updateCaseData(json));
+		// fetch(`https://covid19-api-backend.herokuapp.com/api/v0.1/county/${AGS}/cases/latest/`)
+		// 	.then(response => response.json())
+		// 	.then(json => updateCaseData(json));
 
 		fetch(`https://covid19-api-backend.herokuapp.com/api/v0.1/county/${AGS}/cases/`)
 			.then(response => response.json())
-			.then(json => updateCasesCahrt(json));
+			.then(json => {
+				updateCaseData(json)
+				updateCasesCahrt(json);
+			});
 
 		fetch(`https://covid19-api-backend.herokuapp.com/api/v0.1/county/${AGS}/gender_age/latest/`)
 			.then(response => response.json())

@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Corona-Daten Fürth</title>
+	<title>Corona-Daten</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
 	<meta name="format-detection" content="telephone=no">
@@ -86,12 +86,21 @@
 		ul.beds > li {
 			flex-grow: 1;
 		}
+		.changes {
+			font-size: x-large;
+		}
+		.red {
+			color: red;
+		}
+		.green {
+			color: green;
+		}
 	</style>
 </head>
 
 <body>
 	<div class="container">
-		<h1>Corona-Daten - Stadt Fürth</h1>
+		<h1>Corona-Daten - <span id="district_name">Stadt Fürth</span></h1>
 	</div>
 
 	<div class="container cases latest">
@@ -102,19 +111,31 @@
 		<dl class="infoboxes">
 			<span class="infobox infected_total">
 				<dt>Anzahl der bekannt Infizierten</dt>
-				<dd id="infected_total">loading...</dd>
+				<dd>
+					<span id="infected_total">loading...</span>
+					<span class="changes" id="infected_new" title="Unterschied zum Vortag"></span>
+				</dd>
 			</span>
 			<span class="infobox deaths_total">
 				<dt>Anzahl der Toten</dt>
-				<dd id="deaths_total">loading...</dd>
+				<dd>
+					<span id="deaths_total">loading...</span>
+					<span class="changes" id="deaths_new" title="Unterschied zum Vortag"></span>
+				</dd>
 			</span>
 			<span class="infobox immune_total">
 				<dt>Anzahl bestätigt Immun</dt>
-				<dd id="immune_total">loading...</dd>
+				<dd>
+					<span id="immune_total">loading...</span>
+					<span class="changes" id="immune_new" title="Unterschied zum Vortag"></span>
+				</dd>
 			</span>
 			<span class="infobox quarantine_total">
 				<dt>Anzahl quarantenierter Personen</dt>
-				<dd id="quarantine_total">loading...</dd>
+				<dd>
+					<span id="quarantine_total">loading...</span>
+					<span class="changes" id="quarantine_new" title="Unterschied zum Vortag"></span>
+				</dd>
 			</span>
 		</dl>
 	</div>
@@ -175,7 +196,7 @@
 	<div class="container">
 		<h2>Allgemeine Informationen</h2>
 		<ul>
-			<li><a href="https://www.fuerth.de/Home/Leben-in-Fuerth/coronavirus.aspx">Infos zum Corona-Virus der Stadt Fürth</a></li>
+			<!-- li><a href="https://www.fuerth.de/Home/Leben-in-Fuerth/coronavirus.aspx">Infos zum Corona-Virus der Stadt Fürth</a></li -->
 			<li><a href="https://corona.rki.de/">Daten-Dashboard des Robert Koch Institutes</a></li>
 		</ul>
 	</div>
