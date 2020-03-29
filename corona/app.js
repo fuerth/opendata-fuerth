@@ -58,7 +58,7 @@ function updateCasesCahrt(data) {
 		d.date_day = new Date(d.date_day);
 		return d;
 	}).sort((b, a) => b.date_day - a.date_day);
-	const labels = data.map(p => p.date_day.toLocaleDateString());
+	const labels = data.map(p => p.date_day);
 	const datasets = [];
 
 	const maxInfected = data.reduce((a, d) => Math.max(a, d.infected_total), 0);
@@ -66,7 +66,7 @@ function updateCasesCahrt(data) {
 		datasets.push({
 			label: "infiziert",
 			stack: 'Stack 0',
-			backgroundColor: '#ff9900',
+			backgroundColor: '#FF4500',
 			data: data.map(d => d.infected_total)
 		});
 	}
@@ -98,7 +98,12 @@ function updateCasesCahrt(data) {
 			datasets
 		},
 		options: {
-			aspectRatio: (window.screen.width > 500 ? 2 : 1)
+			aspectRatio: (window.screen.width > 500 ? 2 : 1),
+			scales: {
+				xAxes: [{
+						type: 'time'
+				}]
+			}
 		}
 	});
 }
