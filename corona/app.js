@@ -103,8 +103,10 @@ function updateCasesCahrt(data) {
 				xAxes: [{
 					type: 'time',
 					time: {
-						unit: 'day'
-					}
+						minUnit: 'day',
+						max: new Date()
+					},
+				
 				}]
 			}
 		}
