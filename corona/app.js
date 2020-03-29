@@ -101,7 +101,10 @@ function updateCasesCahrt(data) {
 			aspectRatio: (window.screen.width > 500 ? 2 : 1),
 			scales: {
 				xAxes: [{
-						type: 'time'
+					type: 'time',
+					time: {
+						unit: 'day'
+					}
 				}]
 			}
 		}
