@@ -152,12 +152,12 @@ function updateDistributionCahrt(data) {
 		backgroundColor: '#660066',
 		data: pluckFromData(data, 'w', 'deaths_total')
 	}, {
-		label: "? infiziert",
+		label: "⚥ infiziert",
 		stack: 'Stack 2',
 		backgroundColor: '#888888',
 		data: pluckFromData(data, 'unbekannt', 'infected_total')
 	}, {
-		label: "? gestorben",
+		label: "⚥ gestorben",
 		stack: 'Stack 2',
 		backgroundColor: '#333333',
 		data:pluckFromData(data, 'unbekannt', 'deaths_total')
