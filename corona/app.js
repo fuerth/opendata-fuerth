@@ -209,4 +209,8 @@ window.onload = function() {
 		loadCases();
 	});
 
+	this.setTimeout(() => {
+		window.onload();
+	},1*60*60*1000); // auto-update every hour
+
 };
