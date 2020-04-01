@@ -99,9 +99,15 @@
 </head>
 
 <body>
-	<div class="container">
-		<h1>Corona-Daten - <span id="district_name">Stadt Fürth</span></h1>
-	</div>
+	<header class="container">
+		<h1>Corona-Daten - <span id="district_name">...</span></h1>
+		<div>
+			<label for="district_select">Landkreis:</label>
+			<select id="district_select">
+				<option value="0">loading...</option>
+			</select>
+		</div>
+	</header>
 
 	<div class="container cases latest">
 		<h2>
