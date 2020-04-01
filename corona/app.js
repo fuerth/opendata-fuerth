@@ -1,7 +1,7 @@
-function _resetElementsByIds(ids = []) {
+function _resetElementsByIds(ids = [], showLoading = true) {
 	ids.forEach(id => {
 		const elem = document.getElementById(id);
-		if (elem) elem.innerText = '';
+		if (elem) elem.innerHTML = showLoading ? '<i>loading...</i>' : '';
 	});
 }
 
@@ -13,7 +13,11 @@ function setCounty(county) {
 }
 
 function updateCaseData(dataSets) {
-	if (!dataSets) return _resetElementsByIds(['infected_new', 'deaths_new', 'immune_new', 'infected_total', 'deaths_total', 'immune_total', 'quarantine_total']);
+	if (!dataSets) {
+		_resetElementsByIds(['infected_total', 'deaths_total', 'immune_total', 'quarantine_total']);
+		_resetElementsByIds(['infected_new', 'deaths_new', 'immune_new'], false);
+		return;
+	}
 
 	const data = dataSets[0];
 	if (dataSets.length > 1) {
@@ -106,26 +110,65 @@ function updateCasesChart(data = []) {
 	// 	});
 	// }
 
-	new Chart(document.getElementById("cases_chart"), {
-		type: "bar",
-		data: {
-			labels,
-			datasets
-		},
-		options: {
-			aspectRatio: (window.screen.width > 500 ? 2 : 1),
-			scales: {
-				xAxes: [{
-					type: 'time',
-					time: {
-						minUnit: 'day',
-						max: new Date()
-					},
-				
-				}]
+	if (!window.corona.casesChart) {
+		window.corona.casesChart = new Chart(document.getElementById("cases_chart"), {
+			type: "bar",
+			data: {
+				labels,
+				datasets
+			},
+			options: {
+				aspectRatio: (window.screen.width > 500 ? 2 : 1),
+				scales: {
+					xAxes: [{
+						type: 'time',
+						time: {
+							minUnit: 'day',
+							max: new Date()
+						},
+					
+					}]
+				},
+				// annotation: {
+				// 	annotations: [{
+				// 		drawTime: 'beforeDatasetsDraw',
+				// 		type: 'line',
+				// 		id: 'vline1',
+				// 		mode: 'vertical',
+				// 		scaleID: 'x-axis-0',
+				// 		value: new Date(2020, 02, 16),
+				// 		borderColor: 'gray',
+				// 		borderWidth: 2,
+				// 		label: {
+				// 			enabled: true,
+				// 			position: "top",
+				// 			backgroundColor: 'gray',
+				// 			content: 'Schulschließungen'
+				// 		}
+				// 	}, {
+				// 		drawTime: 'beforeDatasetsDraw',
+				// 		type: 'line',
+				// 		id: 'vline2',
+				// 		mode: 'vertical',
+				// 		scaleID: 'x-axis-0',
+				// 		value: new Date(2020, 02, 21),
+				// 		borderColor: 'gray',
+				// 		borderWidth: 2,
+				// 		label: {
+				// 			enabled: true,
+				// 			position: "top",
+				// 			backgroundColor: 'gray',
+				// 			content: 'Ausgangsbeschränkungen'
+				// 		}
+				// 	}]
+				// }
 			}
-		}
-	});
+		});
+	} else {
+		window.corona.casesChart.data.labels = labels;
+		window.corona.casesChart.data.datasets = datasets;
+		window.corona.casesChart.update();
+	}
 }
 
 function updateDistributionCahrt(data = []) {
@@ -180,16 +223,22 @@ function updateDistributionCahrt(data = []) {
 
 	const datasets = sets.filter(s => Math.max(...s.data) > 0);
 
-	new Chart(document.getElementById("distribution_chart"), {
-		type: "bar",
-		data: {
-			labels,
-			datasets
-		},
-		options: {
-			aspectRatio: (window.screen.width > 500 ? 2 : 1)
-		}
-	});
+	if (!window.corona.distributionChart) {
+		window.corona.distributionChart = new Chart(document.getElementById("distribution_chart"), {
+			type: "bar",
+			data: {
+				labels,
+				datasets
+			},
+			options: {
+				aspectRatio: (window.screen.width > 500 ? 2 : 1)
+			}
+		});
+	} else {
+		window.corona.distributionChart.data.labels = labels;
+		window.corona.distributionChart.data.datasets = datasets;
+		window.corona.distributionChart.update();
+	}
 }
 
 function updateDistrictSelect(data, ags) {
