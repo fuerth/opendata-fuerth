@@ -208,11 +208,13 @@ function updateDistrictSelect(data, ags) {
 	const $select = document.getElementById('district_select');
 	$select.innerHTML = '';
 
-	for (let state in states) {
+	const stateNames = (Object.keys(states)).sort((a, b) => a.localeCompare(b));
+	for (let state of stateNames) {
 		const $optgroup = document.createElement('optgroup');
 		$optgroup.label = state;
 
-		for (let district of states[state].districts) {
+		const districts = (states[state].districts).sort((a, b) => a.gen.localeCompare(b.gen));
+		for (let district of districts) {
 			const $option = document.createElement('option');
 			$option.value = district.ags;
 			$option.text = `${district.gen}` + (district.bez.includes('Stadt') ? ` (${district.bez.replace('Kreisfreie Stadt', 'Stadt')})` : '');
@@ -265,20 +267,20 @@ window.onload = function() {
 		});
 	}
 
-	let ags = location.hash.replace('#','') || '09563';
-	loadCases(ags);
+	window.corona.ags = location.hash.replace('#','') || '09563';
+	loadCases(window.corona.ags);
 
 	fetch(`https://covid19-api-backend.herokuapp.com/api/${API_VERSION}/county/`)
 		.then(response => response.json())
-		.then(json => updateDistrictSelect(json, ags));
+		.then(json => updateDistrictSelect(json, window.corona.ags));
 
 	window.addEventListener('hashchange', function() {
-		ags = location.hash.replace('#','') || '09563';
-		loadCases(ags);	
+		window.corona.ags = location.hash.replace('#','') || '09563';
+		loadCases(window.corona.ags);	
 	})
 
 	this.setTimeout(() => {
-		loadCases(ags);
+		loadCases(window.corona.ags);
 	},1*60*60*1000); // auto-update every hour
 
 };
