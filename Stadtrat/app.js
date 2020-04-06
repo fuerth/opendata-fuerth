@@ -162,6 +162,42 @@ function drawAgeChart(chartData) {
 	});
 }
 
+function drawVotesChart(chartData) {
+	chartData = chartData.sort((a, b) => b.votes - a.votes);
+	var data = {
+		labels: chartData.map(d => d.name),
+		datasets: [{
+			label: '',
+			// backgroundColor: 'red',
+			// borderColor: 'red',
+			// borderWidth: 1,
+			backgroundColor: chartData.map(d => getColorForParty(d.party || 'xxx')),
+			data: chartData.map(d => d.votes)
+		}]
+	};
+
+	new Chart(document.getElementById("votes"), {
+		type: 'horizontalBar',
+		data: data,
+		options: {
+			// Elements options apply to all of the options unless overridden in a dataset
+			// In this case, we are setting the border of each horizontal bar to be 2px wide
+			elements: {
+				rectangle: {
+					borderWidth: 2,
+				}
+			},
+			responsive: true,
+			legend: {
+				display: true
+			},
+			title: {
+				display: false
+			}
+		}
+	});
+}
+
 function drawGenderChart(chartData) {
 	const labels = chartData.map(p => p.party);
 	const datasets = [{
@@ -218,6 +254,10 @@ window.onload = function() {
 		fetch("./genders.json")
 			.then(response => response.json())
 			.then(json => drawGenderChart(json));
+
+		fetch("./votes.json")
+			.then(response => response.json())
+			.then(json => drawVotesChart(json));
 
 		fetch("./birthyears.json")
 			.then(response => response.json())

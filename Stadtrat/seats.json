@@ -1,9 +1,1 @@
-[
-  { "name": "CSU", "seats": 9 },
-  { "name": "GRÜNE", "seats": 10 },
-  { "name": "FREIE WÄHLER", "seats": 2 },
-  { "name": "AfD", "seats": 3 },
-  { "name": "SPD", "seats": 22 },
-  { "name": "FDP", "seats": 1 },
-  { "name": "DIE LINKE", "seats": 3 }
-]
+[{"name":"CSU","seats":9},{"name":"GRÜNE","seats":10},{"name":"FREIE WÄHLER","seats":2},{"name":"AfD","seats":3},{"name":"SPD","seats":22},{"name":"FDP","seats":1},{"name":"DIE LINKE","seats":3}]

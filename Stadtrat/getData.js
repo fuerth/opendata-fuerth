@@ -163,7 +163,23 @@ async function getGendersByParty() {
 	return entries;
 }
 
-
+async function getVotesByPerson() {
+	let entries = [];
+	for (let sheet of doc.sheetsByIndex) {
+		if (sheet == doc.sheetsByIndex[0]) continue;
+		const party = sheet.title;
+		let rows = await sheet.getRows();
+		rows = filterInStadtrat(rows);
+		for (let row of rows) {
+			entries.push({
+				name: row.name,
+				party: party,
+				votes: Number(row.votes)
+			});
+		}
+	}
+	return entries;
+}
 
 
 (async () => {
@@ -175,6 +191,9 @@ async function getGendersByParty() {
 
 	const seats = await getSeatsByParty();
 	await fs.writeJSON('seats.json', seats);
+
+	const votes = await getVotesByPerson();
+	await fs.writeJSON('votes.json', votes);
 	
 	const forenames = await getAllByFieldname('forename');
 	const surnames = await getAllByFieldname('surname');
