@@ -174,7 +174,7 @@ async function getVotesByPerson() {
 			entries.push({
 				name: row.name,
 				party: party,
-				votes: Number(row.votes)
+				votes: Number(row.votes.replace('.',''))
 			});
 		}
 	}
