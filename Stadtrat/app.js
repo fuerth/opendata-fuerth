@@ -189,7 +189,7 @@ function drawVotesChart(chartData) {
 			},
 			responsive: true,
 			legend: {
-				display: true
+				display: false
 			},
 			title: {
 				display: false
