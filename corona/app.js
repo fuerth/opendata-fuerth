@@ -295,7 +295,7 @@ window.onload = function() {
 		setCounty();
 		updateCaseData();
 		updateCasesChart();
-		updateDistributionCahrt()
+		//updateDistributionCahrt()
 
 		fetch(`https://covid19-api-backend.herokuapp.com/api/${API_VERSION}/county/${ags}/`)
 		.then(response => response.json())
@@ -310,9 +310,9 @@ window.onload = function() {
 					updateCasesChart(json);
 				});
 
-			fetch(`https://covid19-api-backend.herokuapp.com/api/${API_VERSION}/county/${ags}/gender_age/latest/`)
-			.then(response => response.json())
-			.then(json => updateDistributionCahrt(json));
+			// fetch(`https://covid19-api-backend.herokuapp.com/api/${API_VERSION}/county/${ags}/gender_age/latest/`)
+			// .then(response => response.json())
+			// .then(json => updateDistributionCahrt(json));
 		});
 	}
 
