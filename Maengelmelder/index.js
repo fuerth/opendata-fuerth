@@ -11,8 +11,11 @@ const DATE_TIME_FORMAT = 'DD.MM.YYYY HH:mm:ss';
 //const REPORTS_FILE = path.join(__dirname, "180124-190711_mangel.csv");
 //const REPORTS_STATUS_FILE = path.join(__dirname, "180125-190711_mangel_protokoll.csv");
 
-const REPORTS_FILE = path.join(__dirname, "180124-190711_mangel_with_geo.csv");
-const REPORTS_STATUS_FILE = path.join(__dirname, "180125-190711_mangel_protokoll_with_geo.csv");
+// const REPORTS_FILE = path.join(__dirname, "180124-190711_mangel_with_geo.csv");
+// const REPORTS_STATUS_FILE = path.join(__dirname, "180125-190711_mangel_protokoll_with_geo.csv");
+
+const REPORTS_FILE = path.join(__dirname, "180501-200616_mangel.csv");
+const REPORTS_STATUS_FILE = path.join(__dirname, "180501-200616_mangel_protokoll.csv");
 
 /**
  * Load CSV file and return CSV
@@ -105,7 +108,7 @@ function filterReportData(reports) {
 	reports = reports.sort((a, b) => a.received - b.received);
 
 	const min = (reports[0]).received;
-	const maxFilter = min.clone().add(1, 'year');
+	const maxFilter = min.clone().add(2, 'year');
 	
 	reports = reports.filter(r => r.received < maxFilter);
 	return reports;
@@ -123,15 +126,16 @@ function extractStatisticsData(reports) {
 	
 	var statistics = [];
 	
+	const years = maxDate.diff(minDate, 'years');
 	statistics.push({
-		description: "Anzahl an Meldungen",
-		value: reports.length
+		description: "Meldungen pro Jahr (Durchschnitt)",
+		value: (reports.length / years).toFixed(0)
 	});
 
 	const days = maxDate.diff(minDate, 'days');
 	statistics.push({
-		description: "Meldungen pro Tag",
-		value: (reports.length / days).toFixed(2)
+		description: "Meldungen pro Tag (Durchschnitt)",
+		value: (reports.length / days).toFixed(1)
 	});
 
 	durations = reports.map(r => {
@@ -141,18 +145,18 @@ function extractStatisticsData(reports) {
 	//console.log(durations);
 
 	statistics.push({
-		description: "Stunden von Meldung bis Bearbeitung (Durchschnitt in Stunden)",
-		value: (durations.reduce( ( p, c ) => p + c, 0 ) / durations.length).toFixed(1)
+		description: "Durchschnittliche Zeitspanne von Meldung bis Bearbeitung",
+		value: (durations.reduce( ( p, c ) => p + c, 0 ) / durations.length).toFixed(1) + ' Stunden'
 	});
 
 	statistics.push({
-		description: "Stunden von Meldung bis Bearbeitung (Minimal in Stunden)",
-		value: (Math.min(...durations)).toFixed(1)
+		description: "Minimale Bearbeitungszeit von Meldung bis Bearbeitung",
+		value: (Math.min(...durations)).toFixed(1) + ' Stunden'
 	});
 
 	statistics.push({
-		description: "Stunden von Meldung bis Bearbeitung (Maximal in Tagen)",
-		value: (Math.max(...durations) / 24).toFixed(1)
+		description: "Maximale Bearbeitungszeit von Meldung bis Bearbeitung",
+		value: (Math.max(...durations) / 24).toFixed(1) + ' Stunden'
 	});
 
 	return statistics;
