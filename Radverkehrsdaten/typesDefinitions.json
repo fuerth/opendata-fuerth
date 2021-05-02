@@ -1,0 +1,112 @@
+[
+  {
+    "type": "gemeinsamer Rad-und Fußweg",
+    "color": "green",
+    "active": true
+  },
+  {
+    "type": "gemeinsamer Rad- und Fußweg (2 Richtungen)",
+    "color": "green",
+    "active": true
+  },
+  {
+    "type": "Radfahrstreifen",
+    "color": "green",
+    "active": true
+  },
+  {
+    "type": "Gehweg, Radfahrer frei",
+    "color": "red",
+    "active": true
+  },
+  {
+    "type": "Feld-Waldweg",
+    "color": "saddlebrown",
+    "active": true
+  },
+  {
+    "type": "getrennter Rad- und Fußweg (2 Richtungen)",
+    "color": "green",
+    "active": false
+  },
+  {
+    "type": "Verbindung ohne eigene RVanlage / Lückenschluss",
+    "color": "#666",
+    "active": false
+  },
+  {
+    "type": "Betriebsweg MD-Kanal",
+    "color": "chocolate",
+    "active": true
+  },
+  {
+    "type": "Schutzstreifen",
+    "color": "limegreen",
+    "active": true
+  },
+  {
+    "type": "getrennter Rad- und Fußweg",
+    "color": "green",
+    "active": true
+  },
+  {
+    "type": "anderer Radweg",
+    "color": "deepskyblue",
+    "active": true
+  },
+  {
+    "type": "Unterführung",
+    "color": "blue",
+    "active": true
+  },
+  {
+    "type": "Fahrradstraße",
+    "color": "deeppink",
+    "active": true
+  },
+  {
+    "type": "Einbahnstraße frei",
+    "color": "purple",
+    "active": true
+  },
+  {
+    "type": "Radfahrstreifen in Gegenrichtung",
+    "color": "green",
+    "active": false
+  },
+  {
+    "type": "Fußgängerzone (Radfahrer frei)",
+    "color": "red",
+    "active": true
+  },
+  {
+    "type": "2-Ri- Radweg  (auf Gehweg)",
+    "color": "red",
+    "active": true
+  },
+  {
+    "type": "Mitbenutzung Busspur",
+    "color": "orangered",
+    "active": true
+  },
+  {
+    "type": "Unterführung mit Rampen",
+    "color": "blue",
+    "active": false
+  },
+  {
+    "type": "Sonstige",
+    "color": "blue",
+    "active": true
+  },
+  {
+    "type": "UNKNOWN",
+    "color": "#FF00FF",
+    "active": true
+  },
+  {
+    "type": "Gehweg Radfahrer frei",
+    "color": "red",
+    "active": true
+  }
+]

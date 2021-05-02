@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "encoding": "^0.1.12",
     "iconv": "^2.3.4",
     "utf8": "^3.0.0"
   },
   "devDependencies": {
     "fs-extra": "^8.1.0",
+    "gauss-krueger": "^1.0.1",
     "shapefile": "^0.6.6"
   }
 }
