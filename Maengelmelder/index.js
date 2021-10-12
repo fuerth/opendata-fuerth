@@ -71,7 +71,7 @@ function extendReportData(reports, reportTypes, reportsStates) {
 		report.type = reportTypes.indexOf(report.description);
 		delete report.description;
 
-		// delete the state; ist the state while the data was extracted; not usefull here.
+		// delete the state; ist the state while the data was extracted; not useful here.
 		delete report.state;
 
 		const STARTED_STATE = "In Bearbeitung";
