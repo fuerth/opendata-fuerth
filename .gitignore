@@ -4,3 +4,5 @@ Stadtrat/node_modules/
 Stadtrat/.env
 Radverkehrsdaten/node_modules/
 node_modules/
+.DS_Store
+Statisik/.DS_Store
