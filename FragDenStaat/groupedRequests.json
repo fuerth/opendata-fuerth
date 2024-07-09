@@ -1,0 +1,800 @@
+{
+  "awaiting_response": [
+    {
+      "title": "Tempo-30-Initiative",
+      "created_at": "2024-04-19T09:49:18.030542+02:00",
+      "due_date": "2024-06-21T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "awaiting_response",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Verkehrsplanung  Heilstättenstraße",
+      "created_at": "2024-04-19T09:43:23.402546+02:00",
+      "due_date": "2024-06-21T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "awaiting_response",
+      "costs": 0,
+      "resolution": ""
+    }
+  ],
+  "resolved": [
+    {
+      "title": "Waldbewirtschaftung in Fürth",
+      "created_at": "2023-12-17T19:23:58.804116+01:00",
+      "due_date": "2024-02-20T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Stadtkämmerei - Beschlussvorlage Sport/0025/2019 - aktueller Sachstand (Kostenplanung)",
+      "created_at": "2022-11-14T19:51:12.408239+01:00",
+      "due_date": "2023-01-17T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "refused"
+    },
+    {
+      "title": "Sportservice | Schriftlichkeit gemäß § 1 Nr. 3 RiLi zur Förderung des Sportstättenbaus der Stadt Fürth",
+      "created_at": "2022-11-20T13:12:02.801095+01:00",
+      "due_date": "2023-01-24T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "refused"
+    },
+    {
+      "title": "Statistische Daten über die Altspeiseölsammlung \"Jeder Tropfen zählt\"",
+      "created_at": "2023-07-22T01:53:17.045190+02:00",
+      "due_date": "2023-09-26T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "Auskünfte über die Altspeiseölsammlung \"Jeder Tropfen zählt\"",
+      "created_at": "2023-04-26T14:00:49.435126+02:00",
+      "due_date": "2023-06-28T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Baumbilanz Fürth",
+      "created_at": "2022-07-26T08:01:35.504579+02:00",
+      "due_date": "2023-03-01T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "refused"
+    },
+    {
+      "title": "BMPA - Bürgerinformationssystem - Sportausschuss",
+      "created_at": "2022-11-19T07:22:55.199591+01:00",
+      "due_date": "2023-01-24T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Rechtsamt - Beschlussvorlage RA/0035/2023 vom 24.05.2023 - Anzahl IFS-Anfragen nach Jahr und Fachgebiet",
+      "created_at": "2023-08-05T08:54:27.371268+02:00",
+      "due_date": "2023-10-10T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Jahresbericht der ökologischen Bauaufsicht - Juli 2023",
+      "created_at": "2023-07-22T02:47:53.210571+02:00",
+      "due_date": "2023-09-26T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Übersicht über Ausschüsse, Gremien und Beiräte in Fürth",
+      "created_at": "2023-07-22T02:12:31.449875+02:00",
+      "due_date": "2023-09-26T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Auskunftsbegehren nach Art. 39 BayDSG - berechtigtes Interesse",
+      "created_at": "2023-03-09T18:45:27.632598+01:00",
+      "due_date": "2023-05-11T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "Zuschüsse von privaten Unternehmen & Spenden",
+      "created_at": "2022-11-16T13:58:04.154961+01:00",
+      "due_date": "2023-01-18T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Anmietung eines Grundstücks in Wilhemstraße zur Erstellung von Schulraumcontainern",
+      "created_at": "2023-02-08T11:17:10.032964+01:00",
+      "due_date": "2023-04-12T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "user_withdrew"
+    },
+    {
+      "title": "Aktuelle Mitgliederliste des Wirtschaftsbeirates Anfang 2023",
+      "created_at": "2023-01-06T23:05:46.478123+01:00",
+      "due_date": "2023-03-11T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Aktivitäten zur Vorbildfunktion klimaneutraler Verwaltung",
+      "created_at": "2022-10-16T21:15:26.472538+02:00",
+      "due_date": "2022-12-20T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Vorlage Sport/0058/2022 - Amt für Sport und Gesundheit",
+      "created_at": "2022-11-08T07:45:47.455615+01:00",
+      "due_date": "2023-01-10T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Auskünfte zur Dokumentation \"20 Jahre für Fürth\" nach der Informationsfreiheitssatzung der Stadt Fürth",
+      "created_at": "2022-07-04T08:04:07.884670+02:00",
+      "due_date": "2022-09-06T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Helene-Lange-Gymnasium Fürth  Tannenstraße 19 90762 Fürth",
+      "created_at": "2021-09-18T07:25:11.809328+02:00",
+      "due_date": "2021-10-22T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Klimaschutz- und Klimaanpassungskonzepte",
+      "created_at": "2021-12-13T12:09:04.766385+01:00",
+      "due_date": "2022-02-15T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Mobilitätsdaten Fürth",
+      "created_at": "2021-04-07T22:48:35.436850+02:00",
+      "due_date": "2021-06-10T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "user_withdrew"
+    },
+    {
+      "title": "Zustand der Internetanbindungen Fürther Schulen",
+      "created_at": "2021-02-05T11:12:33.096308+01:00",
+      "due_date": "2021-04-07T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 200,
+      "resolution": "user_withdrew_costs"
+    },
+    {
+      "title": "Statistik Hundesteuer",
+      "created_at": "2021-07-28T17:45:59.736043+02:00",
+      "due_date": "2021-09-30T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Zulassungen PKW mit Antriebsart in Fürth",
+      "created_at": "2021-03-19T15:33:23.469848+01:00",
+      "due_date": "2021-05-21T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "AW: Aufhebung des Verbots von türkischen MHP Symbolen beim Erntedank-Umzug",
+      "created_at": "2017-08-17T22:03:08.600932+02:00",
+      "due_date": "2017-09-19T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Informationen zum Status der Bewohnerparkplätze",
+      "created_at": "2021-04-06T22:49:12.921373+02:00",
+      "due_date": "2021-06-09T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Protokoll Auftaktveranstaltung Beratungskreis Verkehrsentwicklungsplan",
+      "created_at": "2020-12-03T20:27:39.422040+01:00",
+      "due_date": "2021-02-05T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "refused"
+    },
+    {
+      "title": "Straßenverzeichnis Stadt Fürth",
+      "created_at": "2021-03-23T14:20:53.297569+01:00",
+      "due_date": "2021-05-26T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Anzahl von verkauften Exemplaren des Mietspiegels der letzten Jahre",
+      "created_at": "2021-01-10T17:47:22.933361+01:00",
+      "due_date": "2021-03-13T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "Baumstatistik",
+      "created_at": "2020-09-06T10:47:53.079281+02:00",
+      "due_date": "2020-10-09T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "CO₂ Budget der Stadt Fürth",
+      "created_at": "2021-01-10T18:04:11.040415+01:00",
+      "due_date": "2021-03-13T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Berufsfachschule für Altenpflege",
+      "created_at": "2020-12-04T17:55:11.627401+01:00",
+      "due_date": "2021-01-06T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Volkshochschule Fürth",
+      "created_at": "2020-12-04T17:54:59.777258+01:00",
+      "due_date": "2021-01-06T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Niederschriften des Stadtrats",
+      "created_at": "2020-11-27T09:13:31.405315+01:00",
+      "due_date": "2020-12-29T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "Grundsicherungsempfänger und Übernahme der Kosten der Unterkunft",
+      "created_at": "2019-05-07T18:59:51.516785+02:00",
+      "due_date": "2019-06-12T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Mietspiegel 2020",
+      "created_at": "2020-11-26T16:28:26.506860+01:00",
+      "due_date": "2021-03-02T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 3,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Rosenschule",
+      "created_at": "2020-10-05T21:25:41.219909+02:00",
+      "due_date": "2020-11-07T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Anwohnerparkausweise",
+      "created_at": "2020-09-26T11:52:43.661735+02:00",
+      "due_date": "2020-10-30T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Bericht der Schulinspektion in der Rosenschule Fürth",
+      "created_at": "2020-08-21T12:03:02.962985+02:00",
+      "due_date": "2020-09-23T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Auswirkungen auf die ökologische Zukunftsfähigkeit",
+      "created_at": "2020-06-30T22:30:56.107326+02:00",
+      "due_date": "2020-08-04T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Datensätze zur Verkehrsunfallstatistik 2019",
+      "created_at": "2020-07-14T11:02:08.057469+02:00",
+      "due_date": "2020-08-18T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    },
+    {
+      "title": "Statistik Verkehrunfälle Stadt Fürth für 2019",
+      "created_at": "2020-06-30T22:15:49.973749+02:00",
+      "due_date": "2020-08-04T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Veröffentlichung von Daten des Mängelmelders (2020)",
+      "created_at": "2020-03-06T14:13:06.212796+01:00",
+      "due_date": "2020-04-08T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Protokolle des Nachhaltigkeitsbeirats der Stadt Fürth",
+      "created_at": "2020-01-26T21:15:19.116331+01:00",
+      "due_date": "2020-02-29T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Statistik über die Anzahl und den Bearbeitungsstand von Privatanzeigen von Verkehrsordnungswidrigkeiten",
+      "created_at": "2020-01-28T08:36:32.033326+01:00",
+      "due_date": "2020-03-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "Aktuelle Bodenrichtwertkarte",
+      "created_at": "2019-08-04T13:15:49.517669+02:00",
+      "due_date": "2019-09-07T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 185,
+      "resolution": "user_withdrew_costs"
+    },
+    {
+      "title": "Veröffentlichung von Daten des Mängelmelders",
+      "created_at": "2019-03-25T09:18:50.476216+01:00",
+      "due_date": "2019-04-27T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Internetausbau an der B3 Fürth",
+      "created_at": "2019-06-11T21:28:44.739726+02:00",
+      "due_date": "2019-07-13T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Internetausbau an der B3 Fürth",
+      "created_at": "2019-04-16T11:25:25.770108+02:00",
+      "due_date": "2019-05-18T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "refused"
+    },
+    {
+      "title": "Hardenberg-Gymnasium Fürth",
+      "created_at": "2019-03-31T17:37:55.695429+02:00",
+      "due_date": "2019-05-03T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "refused"
+    },
+    {
+      "title": "Infomationen zum Online-Angebot fuerth-stadtplan.de",
+      "created_at": "2018-11-08T10:34:54.289142+01:00",
+      "due_date": "2018-12-11T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "partially_successful"
+    },
+    {
+      "title": "IFG - Haushalt zur Veröffentlichung auf OffenerHaushalt.de",
+      "created_at": "2018-01-25T12:19:05.363122+01:00",
+      "due_date": "2018-02-27T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "successful"
+    },
+    {
+      "title": "Information über Haushalt 2014",
+      "created_at": "2015-01-21T09:00:00.450469+01:00",
+      "due_date": "2015-02-24T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "resolved",
+      "costs": 0,
+      "resolution": "not_held"
+    }
+  ],
+  "asleep": [
+    {
+      "title": "Sportservice | Projektförderung Sportvereine (innovative Vereinsprojekte) 2019, 2020, 2021, 2022",
+      "created_at": "2022-11-19T15:24:46.376497+01:00",
+      "due_date": "2023-01-24T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Rechnungsprüfungsamt - Beschlussvorlage SpoGe/0008/2023 vom 05.05.2023 - zuwendungsfähige Kosten",
+      "created_at": "2023-07-14T21:51:15.047925+02:00",
+      "due_date": "2023-09-16T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Rechnungsprüfungsamt - Objektförderung - Anzahl vereinseigener Sportstätten gemäß § 2 Nr. 3 Richtlinien zur finanziellen Förderung des Sports durch die Stadt Fürth",
+      "created_at": "2023-07-15T16:05:38.709044+02:00",
+      "due_date": "2023-09-19T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Stadtkämmerei - Sportstättengebührensatzung - Einnahmen 2017-2021",
+      "created_at": "2022-10-30T07:23:04.490882+01:00",
+      "due_date": "2023-01-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Stadtkämmerei - RiLi finanzielle Förderung Sport - anonymisierte Übersicht Förderungen/Gebühren je Sportverein",
+      "created_at": "2022-10-30T07:26:09.041959+01:00",
+      "due_date": "2023-01-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": "refused"
+    },
+    {
+      "title": "Geschäftsverteilungsplan und VZÄ Stabstelle Sportservice, Fachstelle Kommunales Gesundheitsmanagement sowie (zukünftiges) Amt für Sport und Gesundheit",
+      "created_at": "2022-11-09T06:31:19.226352+01:00",
+      "due_date": "2023-01-11T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Stadtkämmerei - Fürther Sportgutscheine (Sport/0057/2022)",
+      "created_at": "2022-10-30T07:26:57.065181+01:00",
+      "due_date": "2023-01-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportservice | Organisationsgrad Fürther Sport",
+      "created_at": "2023-02-26T12:09:47.428927+01:00",
+      "due_date": "2023-04-29T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Referat I - Schule, Bildung, Sport und Gesundheit | FN vom 30.01.2023, S.25 - Teure Vision | 11-14 Mio. Euro",
+      "created_at": "2023-01-30T18:42:28.777189+01:00",
+      "due_date": "2023-04-01T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportservice | FN, 10.02.2023, S. 26, vnp - Rekordzahl: Fürth ehrt Sportler; 1 000 Euro TV Fürth 1860",
+      "created_at": "2023-02-10T07:19:55.561484+01:00",
+      "due_date": "2023-04-12T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportservice - Special Olympics 2023 - \"Host Town Program\" (170 Nationen – 170 inklusive Kommunen) - Kostenansatz Alternative b",
+      "created_at": "2022-11-27T10:07:31.244856+01:00",
+      "due_date": "2023-01-31T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportservice | Programm Fürther Sportgutscheine; hier: Gutscheinwert",
+      "created_at": "2023-01-26T06:35:19.531980+01:00",
+      "due_date": "2023-03-28T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Stadtkämmerei - RiLi finanzielle Förderung Sport - Jubiläen, Fahrtkosten",
+      "created_at": "2022-10-30T07:24:16.926538+01:00",
+      "due_date": "2023-01-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportservice - BV Sport/0062/2022 (10./24.11.2022) - Nothilfefonds Energiekosten Sportvereine - Fördersystematik",
+      "created_at": "2022-12-01T17:31:15.840603+01:00",
+      "due_date": "2023-02-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportservice | Investitionsförderung - Nachweis eigens erbrachte Arbeitsleistung",
+      "created_at": "2022-11-18T20:05:24.822459+01:00",
+      "due_date": "2023-01-20T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportservice - Fürther Sportgutscheine - Budgetausschöpfung (BV Sport/0057/2022 vom 07.07.2022, Artikel Fürther Nachrichten vom 11.08.2022, S. 26)",
+      "created_at": "2022-11-18T17:37:46.841032+01:00",
+      "due_date": "2023-01-20T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Sportgutscheine 2022/2023 - Anzahl Einlösungen (bis 31.10.2022)",
+      "created_at": "2022-11-18T17:04:06.268922+01:00",
+      "due_date": "2023-01-20T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Baumkataster der Stadt Fürth",
+      "created_at": "2022-04-29T21:31:27.477809+02:00",
+      "due_date": "2022-07-01T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Anzahl Divers",
+      "created_at": "2022-05-22T13:20:53.573634+02:00",
+      "due_date": "2022-07-26T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Studien der PB CONSULT Planungs- und Betriebsberatungsgesellschaft mbH",
+      "created_at": "2021-04-07T23:20:21.662767+02:00",
+      "due_date": "2021-06-10T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Parkraumgutachten 2020-2021/22",
+      "created_at": "2021-04-07T22:37:46.478420+02:00",
+      "due_date": "2021-06-10T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Studien der seecon Ingenieure GmbH",
+      "created_at": "2021-04-07T23:23:50.719364+02:00",
+      "due_date": "2021-06-10T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Projekt Sommerstraßen 2021",
+      "created_at": "2021-07-28T17:14:44.879623+02:00",
+      "due_date": "2021-09-30T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Wirtschaftsverkehrskonzept 2020-2021",
+      "created_at": "2021-04-07T22:38:55.971486+02:00",
+      "due_date": "2021-06-10T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Dokument \"Nachhaltige Stadtplanung und Stadtentwicklung in Fürth\"",
+      "created_at": "2021-04-07T22:35:30.571458+02:00",
+      "due_date": "2021-06-10T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Studien im Rahmen der Erstellung der VEP",
+      "created_at": "2020-12-03T20:45:57.825368+01:00",
+      "due_date": "2021-02-05T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Rathaus  Königstraße 8890762 Fürth",
+      "created_at": "2020-12-04T17:54:17.854958+01:00",
+      "due_date": "2021-01-06T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Behindertenrat der Stadt Fürth  Hirschenstraße 290762 Fürth",
+      "created_at": "2020-12-04T17:54:47.278287+01:00",
+      "due_date": "2021-01-06T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Wirtschafts-Rathaus",
+      "created_at": "2020-12-04T17:54:00.151279+01:00",
+      "due_date": "2021-01-06T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Einsatz von Open-Source Software",
+      "created_at": "2020-06-15T12:00:45.099941+02:00",
+      "due_date": "2020-07-17T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Status IFG Anfragen",
+      "created_at": "2020-08-21T11:50:36.036481+02:00",
+      "due_date": "2020-09-23T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Jahnturnhalle Theresienstraße 1190762 Fürth",
+      "created_at": "2020-10-01T09:34:59.325642+02:00",
+      "due_date": "2020-11-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Energiebedarfsausweis für Gebäude: Martin-Segitz-Schule, Staatliche Berufsschule 3 Ottostraße 2290762 Fürth",
+      "created_at": "2020-10-01T09:34:39.406440+02:00",
+      "due_date": "2020-11-03T00:00:00+01:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    },
+    {
+      "title": "Linienbusverkehr",
+      "created_at": "2018-08-16T17:09:09.337427+02:00",
+      "due_date": "2018-09-18T00:00:00+02:00",
+      "resolved_on": null,
+      "status": "asleep",
+      "costs": 0,
+      "resolution": ""
+    }
+  ]
+}
