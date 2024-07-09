@@ -1,0 +1,103 @@
+
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Mängelmelder Fürth</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+	<link rel="manifest" href="../site.webmanifest">
+	<link rel="mask-icon" href="../safari-pinned-tab.svg" color="#009580">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	
+	<link rel="stylesheet" href="/assets/fonts/roboto.css">
+	<link rel="stylesheet" href="/assets/normalize.css">
+	<link rel="stylesheet" href="/assets/milligram.min.css">
+	<link rel="stylesheet" href="/index.css">
+
+	<style>
+		body {
+			color: #414042;
+		}
+		a {
+			color: #009580;
+		}
+		@media screen and (min-width: 800px) {
+			body {
+				padding: 3em ;
+			}
+			h2 {
+				margin-top: 2em;
+			}
+			footer {
+				margin-top: 5em;
+			}
+		}
+
+		dl, dt, dd {
+			all: unset;
+			display: grid; 
+			grid-template-columns: auto 1fr; 
+			grid-gap: 1rem; 
+					
+			background: whitesmoke;
+			padding: 1rem; 
+			border: 1px solid gainsboro;
+		}
+
+		dt {
+			all: unset;
+			font-weight: bold; 
+		}
+
+		dd {
+			all: unset;
+			margin-left: 0; 
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Alt-Speise-Öl Sammlung</h1>
+		<blockquote id="timeframe">
+			<i>loading data...</i>
+		</blockquote>
+	</div>
+
+	<div class="container statistics">
+		<h2>Gesammeltes Öl nach Jahren</h2>
+		<dl id="statistics">
+			<i>loading data...</i>
+		</dl>
+	</div>
+
+	<div style="position:absolute;right:0;top:0;">
+		<a href="https://github.com/mojoaxel/opendata-fuerth">
+			<img width="149" height="149" src="//github.blog/wp-content/uploads/2008/12/forkme_right_gray_6d6d6d.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
+		</a>
+	</div>
+
+	<footer class="footer">
+		<section class="container">
+			<p>
+				<em>Impressum</em>: <a href="//www.fullstax.de">fullstax Gmbh & Co. KG</a> | Weiherstr. 13 | 90762 Fürth | fuerthio@fullstax.de <br/>
+				Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Namensnennung 4.0 International Lizenz</a>.
+			</p>
+		</section>
+	</footer>
+
+	<script src="//unpkg.com/moment@2.24.0/min/moment.min.js"></script>
+	<script src="//unpkg.com/chart.js@2.8.0/dist/Chart.min.js"></script>
+	<script src="//unpkg.com/chartjs-plugin-colorschemes@0.3.0/dist/chartjs-plugin-colorschemes.min.js"></script>
+	<script src="./index.js"></script>
+</body>
+
+</html>

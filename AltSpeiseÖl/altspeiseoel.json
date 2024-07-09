@@ -1,0 +1,37 @@
+{
+	"oil": {
+		"data": [
+			{ "start":"11.2018", "end": "12.2018", "value":"52", "unit": "kg", "month": "1" },
+			{ "start":"01.2019", "end": "12.2019", "value":"3594", "unit": "kg", "month": "12" },
+			{ "start":"01.2020", "end": "12.2020", "value":"5356", "unit": "kg", "month": "12" },
+			{ "start":"01.2021", "end": "12.2021", "value":"5526", "unit": "kg", "month": "12" },
+			{ "start":"01.2022", "end": "12.2022", "value":"10711", "unit": "kg", "month": "12" },
+			{ "start":"01.2023", "end": "09.2023", "value":" 21451", "unit": "kg", "month": "9" }
+		]
+	},
+	"bottles": {
+		"data": [
+			{
+				"start":"05.2022",
+				"end": "10.2023",
+				"data": {
+					"Atzenhof": "382",
+					"Burgfarrnback": "2206",
+					"Dambach": "809",
+					"Eigenes Heim": "3074",
+					"GewerbeparkSüd": "288",
+					"Hardhöhe": "4771",
+					"Innenstadt Ost": "2626",
+					"Oberfürberg": "2302",
+					"Südstadt": "3056",
+					"Poppenreuth": "2740",
+					"Ronhof": "1818",
+					"Scherbsgraben": "1882",
+					"Stadeln": "2358",
+					"Unterfarnbach": "1418",
+					"Vach": "1033"
+				}
+			}
+		]
+	}
+}
