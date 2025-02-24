@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Election Results Map</title>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+			integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+			crossorigin=""
+		/>
+		<script
+			src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+			integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+			crossorigin=""
+		></script>
+		<style>
+			html,
+			body {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+
+			#map {
+				height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="map"></div>
+		<script>
+			// Add the OpenStreetMap tile layer
+			var osm = L.tileLayer(
+				"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+				{
+					maxZoom: 14,
+					minZoom: 12,
+					attribution: [
+						'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+						'© Stadt Fürth'
+				].join(' | '),
+				}
+			);
+
+			var Bt2025ErststimmenSvg = "BT_2025_erststimmen.svg";
+			const latLngBounds = L.latLngBounds([
+				[49.436, 10.893],
+				[49.541, 11.0285]
+			]);
+			const Bt2025ErststimmenLayer = L.imageOverlay(Bt2025ErststimmenSvg, latLngBounds, {
+				opacity: 0.5,
+				alt: 'Daten Stadt Fürth',
+				interactive: true
+			});
+
+			// Create the map
+			var map = L.map("map", {
+				center : [49.4722, 10.9876],
+				zoom : 12,
+				layers : [osm, Bt2025ErststimmenLayer]
+			});
+
+			var baseMaps = {
+				"OpenStreetMap": osm
+		};
+
+			var layers = {
+				"Erststimmen": Bt2025ErststimmenLayer
+			}
+
+			var layerControl = L.control.layers(baseMaps, layers).addTo(map);
+		</script>
+	</body>
+</html>
