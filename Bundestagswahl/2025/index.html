@@ -42,12 +42,20 @@
 				}
 			);
 
-			var Bt2025ErststimmenSvg = "BT_2025_erststimmen.svg";
 			const latLngBounds = L.latLngBounds([
 				[49.436, 10.893],
 				[49.541, 11.0285]
 			]);
+
+			var Bt2025ErststimmenSvg = "BT_2025_erststimmen.svg";
 			const Bt2025ErststimmenLayer = L.imageOverlay(Bt2025ErststimmenSvg, latLngBounds, {
+				opacity: 0.5,
+				alt: 'Daten Stadt Fürth',
+				interactive: true
+			});
+
+			var Bt2025ZweitstimmenSvg = "BT_2025_zweitstimmen.svg";
+			const Bt2025ZweitstimmenLayer = L.imageOverlay(Bt2025ZweitstimmenSvg, latLngBounds, {
 				opacity: 0.5,
 				alt: 'Daten Stadt Fürth',
 				interactive: true
@@ -65,7 +73,8 @@
 		};
 
 			var layers = {
-				"Erststimmen": Bt2025ErststimmenLayer
+				"Erststimmen": Bt2025ErststimmenLayer,
+				"Zweitstimmen": Bt2025ZweitstimmenLayer
 			}
 
 			var layerControl = L.control.layers(baseMaps, layers).addTo(map);
